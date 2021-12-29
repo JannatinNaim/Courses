@@ -1,0 +1,15 @@
+/* Custom Font */
+@font-face {
+    font-family: 'Game Of Squid';
+    src: url(./GameOfSquid.ttf);
+}
+
+h1 {
+    font-family: 'Game Of Squid';
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: 'Shizuru';
+    text-transform: capitalize;
+}

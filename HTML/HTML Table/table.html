@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Table</title>
+</head>
+
+<body>
+    <table border="1px" style="border-collapse: collapse">
+        <caption>Yearly Salary</caption>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Working Hour</th>
+                <th>Salary ($)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2019</td>
+                <td>45</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>60</td>
+                <td>75</td>
+                <!-- <td rowspan="2">75</td> -->
+            </tr>
+            <tr>
+                <td>2021</td>
+                <!-- <td>No Data</td> -->
+                <td colspan="2">No Data</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

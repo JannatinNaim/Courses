@@ -1,0 +1,26 @@
+/* SOME SORT OF COMMENT */
+
+/* TYPOGRAPHY */
+h1, h2, h3 {
+    font-size: 32px;
+}
+
+/* COMMON */
+body {
+    color: red;
+}
+
+/* HERO SECTION */
+.hero {
+    color: red;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    color: red;
+}
+
+/* SERVICES SECTION */
+.services {
+    color: red;
+}

@@ -1,0 +1,23 @@
+/*
+    selector {
+        property: value;
+    }
+*/
+
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+.paragraph {
+    font-size: 32px;
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+p.paragraph {
+    color: orange;
+}

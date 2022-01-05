@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.paragraph-one {
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.paragraph-two {
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    text-indent: 40px;
+    text-align: justify;
+    text-shadow: 10px 10px 10px red;
+    color: blue;
+}

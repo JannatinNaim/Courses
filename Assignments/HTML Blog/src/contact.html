@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ? PAGE SETTINGS -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- ? PAGE DESCRIPTION -->
+        <meta name="author" content="Jannatin Naim" />
+        <meta name="description" content="Jannatin Naim's personal blog." />
+        <meta name="keywords" content="Jannatin Naim, Blog, Portfolio" />
+
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+        <!-- ? STYLESHEETS -->
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/home.css" />
+
+        <!-- ? PAGE TITLE -->
+        <title>Jannatin Naim</title>
+    </head>
+    <body>
+        <div id="global_container">
+            <!-- ? MAIN HEADER | START -->
+            <header id="main_header">
+                <div class="page_branding">
+                    <img src="./img/Profile_Social.png" alt="Jannatin Naim Logo" />
+                    <a href="./index.html">Jannatin Naim</a>
+                </div>
+                <!-- #branding -->
+
+                <nav class="main_navigation">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- #main_navigation -->
+            </header>
+            <!-- ? MAIN HEADER | END -->
+
+            <!-- ? CONTACT SECTION | START -->
+            <section id="contact_section">
+                <h2>Contact Me</h2>
+                <form class="contact_form" action="#">
+                    <label for="form_name">
+                        Name
+                        <input id="form_name" name="name" type="text" required />
+                    </label>
+                    <label for="form_email">
+                        Email
+                        <input id="form_email" name="email" type="email" required />
+                    </label>
+                    <label for="form_message">
+                        Message
+                        <textarea id="form_message" name="message" cols="30" rows="10"></textarea>
+                    </label>
+                    <button type="submit">Send Message</button>
+                </form>
+                <!-- .contact_form -->
+            </section>
+            <!-- ? CONTACT SECTION | END -->
+
+            <!-- ? MAIN FOOTER | START -->
+            <footer id="main_footer">
+                <p>&copy; 2022. All Rights Reserved.</p>
+            </footer>
+            <!-- ? MAIN FOOTER | END -->
+        </div>
+        <!-- #global_container -->
+    </body>
+</html>

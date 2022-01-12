@@ -1,0 +1,43 @@
+/*
+    * CSS Selectors
+
+    1. Tag Selector - tag
+    2. Class Selector - .class
+    3. ID Selector - #id
+    4. Attribute Selector - [attribute=value]
+    5. Universal Selector - *
+*/
+
+/* * TAG SELECTOR */
+
+h1 {
+    color: red;
+}
+
+/* * CLASS SELECTOR */
+
+.paragraph {
+    color: red;
+    font-size: 32px;
+}
+
+/* * ID SELECTOR */
+
+#unique_paragraph {
+    color: blue;
+}
+
+/* * ATTRIBUTE SELECTOR */
+
+[href="https://google.com"]
+{
+    color: red;
+}
+
+/* * UNIVERSAL SELECTOR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-indent: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 1rem;
+}
+
+span {
+    text-decoration: line-through;
+}

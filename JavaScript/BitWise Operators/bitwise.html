@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <style>
+            body {
+                font-family: 'JetBrainsMono Nerd Font', monospace;
+            }
+        </style>
+
+        <title>BitWise Operators</title>
+    </head>
+    <body>
+        <!--
+            BitWise Operators
+
+            1. &        = AND
+            2. |        = OR
+            3. ~        = NOT
+            4. ^        = XOR
+            5. <<       = Zero Fill Left Shift
+            6. >>       = Signed Right Shift
+            7. >>>      = Zero Fill Right Shift
+        -->
+
+        <script>
+            let a, s;
+            let x1, x2, y;
+
+            x1 = 15;
+            x2 = 25;
+
+            s = (x1 >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s);
+
+            document.write('<br />');
+
+            s = (x2 >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s);
+
+            document.write('<h6>AND Operation</h6>');
+            // AND Operation
+            y = x1 & x2;
+            s = (y >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s);
+
+            document.write('<h6>OR Operation</h6>');
+            // OR Operation
+            y = x1 | x2;
+            s = (y >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s);
+
+            document.write('<h6>OR Operation</h6>');
+            // OR Operation
+            y = x1 ^ x2;
+            s = (y >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s);
+        </script>
+    </body>
+</html>

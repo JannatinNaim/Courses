@@ -1,0 +1,16 @@
+/* ? GLOBAL RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ? GENERAL SETTINGS */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ! TEMPORARY FIX */
+img {
+    width: 100%;
+}

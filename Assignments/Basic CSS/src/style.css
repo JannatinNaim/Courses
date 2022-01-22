@@ -5,12 +5,187 @@
     box-sizing: border-box;
 }
 
+/* ? GLOBAL CONTAINER */
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
 /* ? GENERAL SETTINGS */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ! TEMPORARY FIX */
-img {
+.container > h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* ? PRICING TABLE */
+
+#pricing_table table {
+    border-collapse: collapse;
     width: 100%;
+    margin-bottom: 4rem;
+}
+
+#pricing_table caption {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#pricing_table thead {
+    background: rgb(177, 23, 23);
+}
+
+#pricing_table thead th {
+    color: white;
+    padding: 1rem;
+}
+
+#pricing_table thead th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+#pricing_table thead th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+#pricing_table tbody td {
+    padding: 0.5rem;
+}
+
+#pricing_table tbody tr {
+    border-bottom: 1px solid red;
+}
+
+/* ? REGISTRATION FORM */
+
+#registration_form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+#registration_form h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#registration_form fieldset {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+#registration_form legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+#registration_form form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+#registration_form form div label {
+    font-weight: bold;
+}
+
+#registration_form form div input {
+    width: 70%;
+}
+
+#registration_form form input[type='submit'] {
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    width: 200px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+
+#scoreboard {
+    margin-bottom: 4rem;
+}
+
+#scoreboard h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#scoreboard table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 500px;
+    font-family: sans-serif;
+    border-bottom: 3px solid #58b3af;
+    font-weight: thin;
+}
+
+#scoreboard th {
+    background: #58b3af;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#scoreboard td {
+    padding: 20px;
+    background: rgb(241, 241, 241);
+}
+
+#scoreboard tbody tr:nth-child(2) td {
+    background: rgb(255, 255, 255);
+    color: #58b3af;
+}
+
+#scoreboard th:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+
+#scoreboard th:nth-child(4) {
+    border-top-right-radius: 5px;
+}
+
+#gallery {
+    margin-bottom: 4rem;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#gallery .showcase {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#gallery .showcase img {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+    border-bottom: 3px solid red;
+}
+
+#gallery .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#gallery .cards img {
+    width: 30%;
+    display: block;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid green;
 }

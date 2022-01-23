@@ -14,7 +14,7 @@
 
 /* ? GENERAL SETTINGS */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 
 .container > h1 {
@@ -61,6 +61,182 @@ body {
 
 #pricing_table tbody tr {
     border-bottom: 1px solid red;
+}
+
+/* ? PRICING CARDS */
+
+#pricing_cards {
+    margin: 4rem 0;
+}
+
+#pricing_cards h2 {
+    text-align: center;
+}
+
+#pricing_cards .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing_cards > h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#pricing_cards .card {
+    padding: 1rem;
+}
+
+#pricing_cards .card_title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+#pricing_cards .card-one .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #25a8df;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card-two .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #652d8e;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card-three .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #ee5927;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card_config {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards .card-one .card_speed {
+    font-weight: bolder;
+    color: #25a8df;
+}
+
+#pricing_cards .card-two .card_speed {
+    font-weight: bolder;
+    color: #652d8e;
+}
+
+#pricing_cards .card-three .card_speed {
+    font-weight: bolder;
+    color: #ee5927;
+}
+
+#pricing_cards .card_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing_cards .card_speed {
+    font-size: 8rem;
+}
+
+#pricing_cards .card_config {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#pricing_cards .card_description {
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    color: #da6ea9;
+    margin-bottom: 4rem;
+}
+
+#pricing_cards .card_pricing {
+    text-align: center;
+    margin: 1rem;
+}
+
+#pricing_cards .card_pricing .price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#pricing_cards .card_pricing_installment {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#pricing_cards .button {
+    border: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #de2d3c;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#pricing_cards .button:hover {
+    background-color: #c4e46c;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#pricing_cards .card-two {
+    border-right: 1px solid #b9bbbd;
+    border-left: 1px solid #b9bbbd;
+    padding: 0 1.5rem;
 }
 
 /* ? REGISTRATION FORM */

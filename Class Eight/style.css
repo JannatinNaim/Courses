@@ -1,0 +1,33 @@
+:root {
+    --fontSize: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.em-div {
+    font-size: var(--fontSize);
+}
+
+.em {
+    font-size: 3em;
+}
+
+.rem {
+    font-size: 3rem;
+}
+
+.em-one {
+    font-size: 16px;
+}
+
+.em-two {
+    font-size: 2em;
+}
+
+.em-three {
+    font-size: 2em;
+}

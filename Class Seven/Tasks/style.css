@@ -17,19 +17,26 @@ img {
 }
 
 .one {
+    border: 1px solid red;
+    border-bottom: none;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
 
 .two {
-    top: -50px;
+    top: 0px;
     left: 250px;
 }
 
 .three {
-    top: 275px;
+    top: 325px;
     left: 390px;
 }
 
 .four {
-    top: 150px;
+    top: 225px;
     left: 500px;
 }

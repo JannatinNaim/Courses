@@ -605,6 +605,10 @@ body {
     font-size: 1.125rem;
 }
 
+.main_footer__col_a__links__item:hover {
+    cursor: pointer;
+}
+
 .main_footer__col_b__title {
     display: block;
     font-size: 2rem;

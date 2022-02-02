@@ -88,7 +88,7 @@ body {
 }
 
 .main_header__navigation__item:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(-4px);
 }
 
 .main_header__navigation__link {
@@ -168,7 +168,7 @@ body {
     gap: 1rem;
     position: absolute;
     left: -2rem;
-    top: 22rem;
+    top: 18rem;
     padding: 1rem 1rem;
     border-radius: 1.75rem;
     background: var(--secondary-background-color);
@@ -436,7 +436,7 @@ body {
     width: 11rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     background: var(--tertiary-background-color);
     color: var(--primary-color);
 }

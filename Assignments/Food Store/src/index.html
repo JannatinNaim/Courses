@@ -14,6 +14,14 @@
             referrerpolicy="no-referrer"
         />
 
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- ? STYLESHEET -->
         <link rel="stylesheet" href="./style.css" />
 
@@ -24,13 +32,15 @@
     <body>
         <div class="main_header__container">
             <!-- ? MAIN HEADER | START -->
-            <header class="main_header">
+            <header class="main_header container">
                 <span class="main_header__branding"> Foodies </span>
 
                 <nav class="main_header__navigation">
                     <ul class="main_header__navigation__list">
                         <li class="main_header__navigation__item">
-                            <a href="#" class="main_header__navigation__link">Home</a>
+                            <a href="#" class="main_header__navigation__link main_header__navigation__link--active">
+                                Home
+                            </a>
                         </li>
 
                         <li class="main_header__navigation__item">
@@ -58,16 +68,16 @@
 
         <div class="hero__container">
             <!-- ? HERO | START -->
-            <section class="hero">
+            <section class="hero container">
                 <div class="hero__content">
                     <h1 class="hero__content__heading">We're Serious For Food.</h1>
 
                     <p class="hero__content__description">
-                        We strive to provide a space where guests can connect with themselves and explore their full
-                        potential, offering a safe place.
+                        We strive to provide a space where guests can connect with <br />
+                        themselves and explore their full potential, offering a safe place.
                     </p>
 
-                    <a href="#" class="hero__content__call_to_action">
+                    <a href="#" class="hero__content__call_to_action call_to_action">
                         <span class="hero__content__call_to_action__name">Get Started</span>
                         <i class="fas fa-long-arrow-alt-right hero__content__call_to_action__icon"></i>
                     </a>
@@ -109,7 +119,7 @@
 
         <div class="brand_links__container">
             <!-- ? BRAND LINKS | START -->
-            <section class="brand_links">
+            <section class="brand_links container">
                 <div class="brand_links__link">
                     <img
                         src="./images/brand__links__link__image_a.svg"
@@ -146,7 +156,7 @@
 
         <div class="services__container">
             <!-- ? SERVICES | START -->
-            <section class="services">
+            <section class="services container">
                 <div class="services__service">
                     <i class="fas fa-truck services__service__logo"></i>
 
@@ -197,16 +207,8 @@
 
         <div class="benefits__container">
             <!-- ? BENEFITS | START -->
-            <section class="benefits">
-                <div class="benefits__banner">
-                    <img
-                        src="./images/benefits__banner__image.png"
-                        alt="Benefits Banner Image"
-                        class="benefits__banner__image"
-                    />
-                    <img src="./images/dots_overlay.svg" alt="Dots Overlay" class="benefits__banner__dots_overlay" />
-                </div>
-                <!-- .benefits__banner -->
+            <section class="benefits container">
+                <img src="./images/benefits__banner.png" alt="Benefits Banner Image" class="benefits__banner" />
 
                 <div class="benefits__content">
                     <span class="benefits__content__info">Our Benefit</span>
@@ -215,26 +217,33 @@
 
                     <ul class="benefits__content__list">
                         <li class="benefits__content__item">
-                            <i class="fas fa-check"></i> <span>Be Alive With Veggie Food</span>
+                            <i class="fas fa-check benefits__content__item__icon"></i>
+                            <span>Be Alive With Veggie Food</span>
                         </li>
 
                         <li class="benefits__content__item">
-                            <i class="fas fa-check"></i> <span>It's The Place To Be</span>
+                            <i class="fas fa-check benefits__content__item__icon"></i>
+                            <span>It's The Place To Be</span>
                         </li>
 
                         <li class="benefits__content__item">
-                            <i class="fas fa-check"></i> <span>Nonstop Veggie Food</span>
+                            <i class="fas fa-check benefits__content__item__icon"></i>
+                            <span>Nonstop Veggie Food</span>
                         </li>
 
                         <li class="benefits__content__item">
-                            <i class="fas fa-check"></i> <span>The Best Silk Dish In Town</span>
+                            <i class="fas fa-check benefits__content__item__icon"></i>
+                            <span>The Best Silk Dish In Town</span>
                         </li>
 
                         <li class="benefits__content__item">
-                            <i class="fas fa-check"></i> <span>Truffles, Egg & Pumpkin Spice</span>
+                            <i class="fas fa-check benefits__content__item__icon"></i>
+                            <span>Truffles, Egg & Pumpkin Spice</span>
                         </li>
                     </ul>
                     <!-- .benefits__content__list -->
+
+                    <img src="./images/dots_overlay.svg" alt="Dots Overlay" class="benefits__content__dots_overlay" />
                 </div>
                 <!-- .benefits__content -->
             </section>
@@ -244,11 +253,14 @@
 
         <div class="stats__container">
             <!-- ? STAT | START -->
-            <section class="stat">
+            <section class="stat container">
                 <div class="stat__content">
                     <span class="stat__content__info">Our Stars</span>
 
-                    <h2 class="stat__content__title">Veggie Food Goes On And Always On</h2>
+                    <h2 class="stat__content__title">
+                        Veggie Food Goes <br />
+                        On And Always On
+                    </h2>
 
                     <div class="stat__content__stats">
                         <div class="stat__content__stats__item">
@@ -271,7 +283,7 @@
                     </div>
                     <!-- .stat__content__stats -->
 
-                    <a href="#" class="stat__content__call_to_action">
+                    <a href="#" class="stat__content__call_to_action call_to_action">
                         <span class="stat__content__call_to_action__name">Get Special Promo</span>
                         <i class="fas fa-long-arrow-alt-right hero__content__call_to_action__icon"></i>
                     </a>
@@ -289,7 +301,7 @@
 
         <div class="features__container">
             <!-- ? FEATURES | START -->
-            <section class="features">
+            <section class="features container">
                 <span class="features__info">Our Features</span>
 
                 <h2 class="features__title">Variety Of Features</h2>
@@ -307,10 +319,11 @@
                                 <h3 class="features__gallery__row__item__content__title">Veggies Are Forever</h3>
 
                                 <p class="features__gallery__row__item__content__info">
-                                    We offer the following services
+                                    We offer the following <br />
+                                    services
                                 </p>
 
-                                <a href="" class="features__gallery__row__item__content__call_to_action">
+                                <a href="" class="features__gallery__row__item__content__call_to_action call_to_action">
                                     <span class="features__gallery__row__item__content__call_to_action__name">
                                         Discover Now
                                     </span>
@@ -335,10 +348,11 @@
                                 <h3 class="features__gallery__row__item__content__title">Good For Your Skin</h3>
 
                                 <p class="features__gallery__row__item__content__info">
-                                    We offer the following services
+                                    We offer the following <br />
+                                    services
                                 </p>
 
-                                <a href="" class="features__gallery__row__item__content__call_to_action">
+                                <a href="" class="features__gallery__row__item__content__call_to_action call_to_action">
                                     <span class="features__gallery__row__item__content__call_to_action__name">
                                         Discover Now
                                     </span>
@@ -366,10 +380,11 @@
                                 <h3 class="features__gallery__row__item__content__title">Veggie Food Groove</h3>
 
                                 <p class="features__gallery__row__item__content__info">
-                                    We offer the following services
+                                    We offer the following <br />
+                                    services
                                 </p>
 
-                                <a href="" class="features__gallery__row__item__content__call_to_action">
+                                <a href="" class="features__gallery__row__item__content__call_to_action call_to_action">
                                     <span class="features__gallery__row__item__content__call_to_action__name">
                                         Discover Now
                                     </span>
@@ -394,10 +409,11 @@
                                 <h3 class="features__gallery__row__item__content__title">That Comes Close</h3>
 
                                 <p class="features__gallery__row__item__content__info">
-                                    We offer the following services
+                                    We offer the following <br />
+                                    services
                                 </p>
 
-                                <a href="" class="features__gallery__row__item__content__call_to_action">
+                                <a href="" class="features__gallery__row__item__content__call_to_action call_to_action">
                                     <span class="features__gallery__row__item__content__call_to_action__name">
                                         Discover Now
                                     </span>
@@ -420,13 +436,13 @@
 
         <div class="products__container">
             <!-- ? PRODUCTS | START -->
-            <section class="products">
+            <section class="products container">
                 <span class="products__info">Our Product</span>
 
                 <h2 class="products__title">Most Popular Product</h2>
 
                 <div class="products__gallery">
-                    <div class="products__gallery__product">
+                    <div class="products__gallery__product products__gallery__product--highlight">
                         <img
                             src="./images/products__gallery__product__image_a.png"
                             alt="Product Image"
@@ -562,10 +578,13 @@
 
         <div class="learn_more__container">
             <!-- ? LEARN MORE | START -->
-            <div class="learn_more">
-                <h2 class="learn_more__title">Veggie Foods? Ingredients You Want To Try</h2>
+            <div class="learn_more container">
+                <h2 class="learn_more__title">
+                    Veggie Foods? Ingredients <br />
+                    You Want To Try
+                </h2>
 
-                <a href="" class="learn_more__call_to_action">
+                <a href="" class="learn_more__call_to_action call_to_action">
                     <span class="learn_more__call_to_action__name">Get Started</span>
                     <i class="fas fa-long-arrow-alt-right learn_more__call_to_action__icon"></i>
                 </a>
@@ -575,20 +594,23 @@
         <!-- .learn_more__container -->
 
         <div class="main_footer__container">
-            <footer class="main_footer">
+            <!-- ? MAIN FOOTER | START -->
+            <footer class="main_footer container">
                 <div class="main_footer__col_a">
-                    <h3 class="main_footer__col__title">Foodies</h3>
+                    <h3 class="main_footer__col_a__title">Foodies</h3>
 
-                    <p class="main__footer__col__info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellendus?
+                    <p class="main__footer__col_a__info">
+                        Lorem ipsum dolor sit amet consectetur <br />
+                        adipisicing elit. Tenetur, <br />
+                        repellendus?
                     </p>
 
-                    <div class="main_footer__col__links">
-                        <i class="fab fa-facebook main_footer__col__links__item"></i>
-                        <i class="fab fa-instagram main_footer__col__links__item"></i>
-                        <i class="fab fa-twitter main_footer__col__links__item"></i>
+                    <div class="main_footer__col_a__links">
+                        <i class="fab fa-facebook main_footer__col_a__links__item"></i>
+                        <i class="fab fa-instagram main_footer__col_a__links__item"></i>
+                        <i class="fab fa-twitter main_footer__col_a__links__item"></i>
                     </div>
-                    <!-- .main_footer__col__links -->
+                    <!-- .main_footer__col_a__links -->
                 </div>
                 <!-- .main_footer__col_a -->
 
@@ -648,14 +670,14 @@
                     </p>
 
                     <form action="#" class="main_footer__col_d__form">
-                        <input type="email" required class="main_footer__col_d__form_input" />
+                        <input type="email" required placeholder="Email" class="main_footer__col_d__form_input" />
                         <button type="submit" class="main_footer__col_d__form_submit">Subscribe</button>
                     </form>
                     <!-- main_footer__cold_d_form -->
                 </div>
                 <!-- main_footer__cold_d -->
             </footer>
-            <!-- .main_footer -->
+            <!-- ? MAIN FOOTER | end -->
         </div>
         <!-- .main_footer__container -->
     </body>

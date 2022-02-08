@@ -4,11 +4,545 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <!-- ? FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- ? STYLESHEETS -->
         <link rel="stylesheet" href="./style.css" />
 
         <title>Foodies</title>
     </head>
     <body>
-        <!-- TODO: BUILD PAGE -->
+        <div class="main_header__container">
+            <!-- ? MAIN HEADER | START -->
+            <header class="main_header container">
+                <div class="main_header__branding">
+                    <span class="main_header__branding__name">Foodies</span>
+                </div>
+                <!-- .main_header__branding -->
+
+                <nav class="main_header__navigation">
+                    <ul class="main_header__navigation__list">
+                        <li class="main_header__navigation__item">
+                            <a href="#" class="main_header__navigation__list__item__link">Home</a>
+                        </li>
+                        <!-- .main_header__navigation__list__item -->
+
+                        <li class="main_header__navigation__item">
+                            <a href="#" class="main_header__navigation__list__item__link">About Us</a>
+                        </li>
+                        <!-- .main_header__navigation__list__item -->
+
+                        <li class="main_header__navigation__item">
+                            <a href="#" class="main_header__navigation__list__item__link">Service Us</a>
+                            j
+                        </li>
+                        <!-- .main_header__navigation__list__item -->
+
+                        <li class="main_header__navigation__item">
+                            <a href="#" class="main_header__navigation__list__item__link">Our Company</a>
+                        </li>
+                        <!-- .main_header__navigation__list__item -->
+
+                        <li class="main_header__navigation__item">
+                            <a href="#" class="main_header__navigation__list__item__link">Pages</a>
+                        </li>
+                        <!-- .main_header__navigation__list__item -->
+                    </ul>
+                    <!-- .main_header__navigation__list -->
+                </nav>
+                <!-- .main_header__navigation -->
+            </header>
+            <!-- ? MAIN HEADER | END -->
+        </div>
+        <!-- .main_header__container -->
+
+        <!-- ? HERO SECTION | START -->
+        <section class="hero container">
+            <div class="hero__content">
+                <h1 class="hero__content__name">We're Serious For Food.</h1>
+
+                <p class="hero__content__info">
+                    We strive to provide a space where guests can connect with themselves and explore their full
+                    potential, offering a safe place.
+                </p>
+
+                <a href="#" class="hero__content__call_to_action call_to_action">
+                    <span class="hero__content__call_to_action__name">Get Started</span>
+                    <i class="hero__content__call_to_action__icon fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+            <!-- .hero__content -->
+
+            <div class="hero__banner">
+                <img src="./image/hero__banner__image.png" alt="Hero Banner Image" class="hero__banner__image" />
+
+                <div class="hero__banner__star__rating">
+                    <span class="hero__banner__star__rating__name">5.0 Ratings</span>
+
+                    <div class="hero__banner__star__rating__stars">
+                        <i class="hero__banner__star__rating__stars__icon fas fa-star"></i>
+                        <i class="hero__banner__star__rating__stars__icon fas fa-star"></i>
+                        <i class="hero__banner__star__rating__stars__icon fas fa-star"></i>
+                        <i class="hero__banner__star__rating__stars__icon fas fa-star"></i>
+                        <i class="hero__banner__star__rating__stars__icon fas fa-star"></i>
+                    </div>
+                    <!-- .hero__banner__star__rating__stars -->
+                </div>
+                <!-- .hero__banner__star__rating -->
+
+                <div class="hero__banner__overview_rating">
+                    <span class="hero__banner__overview_rating__name">Good Quality Product</span>
+
+                    <img
+                        src="./images/hero__banner__overview_rating__image.png"
+                        alt="Overview Rating Image"
+                        class="hero__banner__overview_rating__image"
+                    />
+                </div>
+                <!-- .hero__banner__overview rating -->
+
+                <img src="./images/dots_overlay.svg" alt="Dots Overlay Image" class="hero__banner__dots_overlay" />
+            </div>
+            <!-- .hero__banner -->
+        </section>
+        <!-- ? HERO SECTION | END -->
+
+        <!-- ? BRAND LINKS SECTION | START -->
+        <section class="brand_links container">
+            <div class="brand_links__link">
+                <img
+                    src="./images/brand__links__link__image_a.svg"
+                    alt="LogoIpsum Image"
+                    class="brand__links__link__image"
+                />
+
+                <span class="brand__links__link__name">logoipsum</span>
+            </div>
+            <!-- .brand_links_link -->
+
+            <div class="brand_links__link">
+                <img
+                    src="./images/brand__links__link__image_b.svg"
+                    alt="LogoIpsum Image"
+                    class="brand__links__link__image"
+                />
+
+                <span class="brand__links__link__name">logoipsum</span>
+            </div>
+            <!-- .brand_links_link -->
+
+            <div class="brand_links__link">
+                <img
+                    src="./images/brand__links__link__image_c.svg"
+                    alt="LogoIpsum Image"
+                    class="brand__links__link__image"
+                />
+
+                <span class="brand__links__link__name">logoipsum</span>
+            </div>
+            <!-- .brand_links_link -->
+        </section>
+        <!-- ? BRAND LINKS SECTION | END -->
+
+        <!-- ? SERVICES SECTION | START -->
+        <section class="services container">
+            <div class="services__service">
+                <div class="services__service__content">
+                    <span class="services__service__content__name">Free Shipping</span>
+                    <span class="services__service__content__info">Orders over $140</span>
+                </div>
+                <!-- .services__service__content -->
+
+                <i class="services__service__logo fas fa-truck"></i>
+            </div>
+            <!-- .services__service -->
+
+            <div class="services__service">
+                <div class="services__service__content">
+                    <span class="services__service__content__name">Quick Payment</span>
+                    <span class="services__service__content__info">100% secure payment</span>
+                </div>
+                <!-- .services__service__content -->
+
+                <i class="services__service__logo fas fa-wallet"></i>
+            </div>
+            <!-- .services__service -->
+
+            <div class="services__service">
+                <div class="services__service__content">
+                    <span class="services__service__content__name">Special Promo</span>
+                    <span class="services__service__content__info">Get special promo</span>
+                </div>
+                <!-- .services__service__content -->
+
+                <i class="services__service__logo fas fa-percentage"></i>
+            </div>
+            <!-- .services__service -->
+
+            <div class="services__service">
+                <div class="services__service__content">
+                    <span class="services__service__content__name">24/7 Support</span>
+                    <span class="services__service__content__info">Ready support</span>
+                </div>
+                <!-- .services__service__content -->
+
+                <i class="services__service__logo fas fa-headphones"></i>
+            </div>
+            <!-- .services__service -->
+        </section>
+        <!-- ? SERVICES SECTION | END -->
+
+        <!-- ? BENEFITS SECTION | START -->
+        <section class="benefits container">
+            <div class="benefits__banner">
+                <img
+                    src="./images/benefits__banner__image.png"
+                    alt="Benefits Banner Image"
+                    class="benefits__banner__image"
+                />
+            </div>
+            <!-- .benefits__banner -->
+
+            <div class="benefits__content">
+                <span class="benefits__content__info">Our Benefit</span>
+
+                <h2 class="benefits__content__name">The More Healthy Food The Better</h2>
+
+                <ul class="benefits__content__list">
+                    <li class="benefits__content__list__item">
+                        <span class="benefits__content__list__item__name">Be Alive With Veggie Food</span>
+                        <i class="benefits__content__list__item__icon fas fa-check"></i>
+                    </li>
+                    <!-- .benefits__content__list__item -->
+
+                    <li class="benefits__content__list__item">
+                        <span class="benefits__content__list__item__name">It's The Place To Be</span>
+                        <i class="benefits__content__list__item__icon fas fa-check"></i>
+                    </li>
+                    <!-- .benefits__content__list__item -->
+
+                    <li class="benefits__content__list__item">
+                        <span class="benefits__content__list__item__name">Nonstop Veggie Food</span>
+                        <i class="benefits__content__list__item__icon fas fa-check"></i>
+                    </li>
+                    <!-- .benefits__content__list__item -->
+
+                    <li class="benefits__content__list__item">
+                        <span class="benefits__content__list__item__name">The Best Silk Dish In Town</span>
+                        <i class="benefits__content__list__item__icon fas fa-check"></i>
+                    </li>
+                    <!-- .benefits__content__list__item -->
+
+                    <li class="benefits__content__list__item">
+                        <span class="benefits__content__list__item__name">Truffles, Egg & Pumpkin Spice</span>
+                        <i class="benefits__content__list__item__icon fas fa-check"></i>
+                    </li>
+                    <!-- .benefits__content__list__item -->
+                </ul>
+                <!-- .benefits__content__list -->
+
+                <img src="./images/dots_overlay.svg" alt="Dots Overlay Image" class="benefits__content__dots_overlay" />
+            </div>
+            <!-- .benefits__content -->
+        </section>
+        <!-- ? BENEFITS SECTION | END -->
+
+        <!-- ? STATS SECTION | START -->
+        <section class="stats container">
+            <div class="stats__content">
+                <span class="stats__content__info">Our Stars</span>
+
+                <h2 class="stats__content__name">Veggie Food Goes On And Always On</h2>
+
+                <div class="stats__content__stats">
+                    <div class="stats__content__stats__item">
+                        <span class="stats__content__stats__item__title">1,500</span>
+                        <span class="stats__content__stats__item__info">Sold Product</span>
+                    </div>
+                    <!-- .stats__content__stats__item -->
+
+                    <div class="stats__content__stats__item">
+                        <span class="stats__content__stats__item__title">500</span>
+                        <span class="stats__content__stats__item__info">Positive Feedback</span>
+                    </div>
+                    <!-- .stats__content__stats__item -->
+
+                    <div class="stats__content__stats__item">
+                        <span class="stats__content__stats__item__title">400</span>
+                        <span class="stats__content__stats__item__info">Official Store</span>
+                    </div>
+                    <!-- .stats__content__stats__item -->
+                </div>
+                <!-- .stats__content__stats -->
+
+                <a href="#" class="stats__content__call_to_action call_to_action">
+                    <span class="stats__content__call_to_action__name">Get Special Promo</span>
+                    <i class="stats__content__call_to_action__icon fas fa-long-arrow-alt-right"></i>
+                </a>
+                <!-- .stats__content__call_to_action -->
+
+                <img src="./images/dots_overlay.svg" alt="Dots Overlay Image" class="stats__content__dots__overlay" />
+            </div>
+            <!-- .stats__content -->
+
+            <div class="stats__banner">
+                <img src="./images/stats__banner__image.png" alt="Stats Banner Image" class="stats__banner__image" />
+            </div>
+            <!-- .stats__banner -->
+        </section>
+        <!-- ? STATS SECTION | END -->
+
+        <!-- ? FEATURES SECTION | START -->
+        <section class="features container">
+            <!-- TODO: BUILD FEATURES SECTION -->
+        </section>
+        <!-- ? FEATURES SECTION | END -->
+
+        <!-- ? PRODUCTS SECTION | START -->
+        <section class="products container">
+            <span class="products__info">Our Products</span>
+
+            <h2 class="products__name">Most Popular Products</h2>
+
+            <div class="products__gallery">
+                <div class="products__gallery__product products__gallery__product--highlight">
+                    <img
+                        src="./image/products__gallery__product__image_a.png"
+                        alt="Product Image"
+                        class="products__gallery__product__image"
+                    />
+
+                    <div class="products__gallery__product__rating">
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                    </div>
+                    <!-- .products__gallery__product__rating -->
+
+                    <span class="products__gallery__product__name">Summer Véganie</span>
+
+                    <div class="products__gallery__product__pricing">
+                        <span class="products__gallery__product__price--old">$25</span>
+                        <span class="products__gallery__product__price--new">$29</span>
+                    </div>
+                    <!-- .products__gallery__product__pricing -->
+
+                    <a href="" class="products__gallery__product__call_to_action">
+                        <span class="products__gallery__product__call_to_action_name">Buy Now</span>
+                        <i class="products__gallery__product__call_to_action_icon fas fa-long-arrow-alt-right"></i>
+                    </a>
+                    <!-- .products__gallery__product__call_to_action -->
+                </div>
+                <!-- .products__gallery__product -->
+
+                <div class="products__gallery__product">
+                    <img
+                        src="./image/products__gallery__product__image_b.png"
+                        alt="Product Image"
+                        class="products__gallery__product__image"
+                    />
+
+                    <div class="products__gallery__product__rating">
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                    </div>
+                    <!-- .products__gallery__product__rating -->
+
+                    <span class="products__gallery__product__name">Greanie Food</span>
+
+                    <div class="products__gallery__product__pricing">
+                        <span class="products__gallery__product__price--old">$25</span>
+                        <span class="products__gallery__product__price--new">$29</span>
+                    </div>
+                    <!-- .products__gallery__product__pricing -->
+
+                    <a href="" class="products__gallery__product__call_to_action">
+                        <span class="products__gallery__product__call_to_action_name">Buy Now</span>
+                        <i class="products__gallery__product__call_to_action_icon fas fa-long-arrow-alt-right"></i>
+                    </a>
+                    <!-- .products__gallery__product__call_to_action -->
+                </div>
+                <!-- .products__gallery__product -->
+
+                <div class="products__gallery__product">
+                    <img
+                        src="./image/products__gallery__product__image_c.png"
+                        alt="Product Image"
+                        class="products__gallery__product__image"
+                    />
+
+                    <div class="products__gallery__product__rating">
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                    </div>
+                    <!-- .products__gallery__product__rating -->
+
+                    <span class="products__gallery__product__name">Fresh Vegetables</span>
+
+                    <div class="products__gallery__product__pricing">
+                        <span class="products__gallery__product__price--old">$25</span>
+                        <span class="products__gallery__product__price--new">$29</span>
+                    </div>
+                    <!-- .products__gallery__product__pricing -->
+
+                    <a href="" class="products__gallery__product__call_to_action">
+                        <span class="products__gallery__product__call_to_action_name">Buy Now</span>
+                        <i class="products__gallery__product__call_to_action_icon fas fa-long-arrow-alt-right"></i>
+                    </a>
+                    <!-- .products__gallery__product__call_to_action -->
+                </div>
+                <!-- .products__gallery__product -->
+
+                <div class="products__gallery__product">
+                    <img
+                        src="./image/products__gallery__product__image_d.png"
+                        alt="Product Image"
+                        class="products__gallery__product__image"
+                    />
+
+                    <div class="products__gallery__product__rating">
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                        <i class="products__gallery__product__rating__icon fas fa-star"></i>
+                    </div>
+                    <!-- .products__gallery__product__rating -->
+
+                    <span class="products__gallery__product__name">Fresh Meatyus</span>
+
+                    <div class="products__gallery__product__pricing">
+                        <span class="products__gallery__product__price--old">$25</span>
+                        <span class="products__gallery__product__price--new">$29</span>
+                    </div>
+                    <!-- .products__gallery__product__pricing -->
+
+                    <a href="" class="products__gallery__product__call_to_action">
+                        <span class="products__gallery__product__call_to_action_name">Buy Now</span>
+                        <i class="products__gallery__product__call_to_action_icon fas fa-long-arrow-alt-right"></i>
+                    </a>
+                    <!-- .products__gallery__product__call_to_action -->
+                </div>
+                <!-- .products__gallery__product -->
+            </div>
+            <!-- .products__gallery -->
+        </section>
+        <!-- ? PRODUCTS SECTION | END -->
+
+        <!-- ? LEARN MORE SECTION | START -->
+        <section class="learn_more container">
+            <h2 class="learn_more__name">Veggie Foods? Ingredients You Want To Try</h2>
+
+            <a href="" class="learn_more__call_to_action call_to_action">
+                <span class="learn_more__call_to_action__name">Get Started</span>
+                <i class="learn_more__call_to_action__icon fas fa-long-arrow-alt-right"></i>
+            </a>
+            <!-- .learn_more__call_to_action -->
+        </section>
+        <!-- ? LEARN MORE SECTION | END -->
+
+        <footer class="main_footer container">
+            <div class="main_footer__col_a">
+                <h3 class="main_footer__col_a__name">Foodies</h3>
+
+                <p class="main__footer__col_a__info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, repellendus?
+                </p>
+
+                <div class="main_footer__col_a__links">
+                    <i class="main_footer__col_a__links__item fab fa-facebook"></i>
+                    <i class="main_footer__col_a__links__item fab fa-instagram"></i>
+                    <i class="main_footer__col_a__links__item fab fa-twitter"></i>
+                </div>
+                <!-- .main_footer__col_a__links -->
+            </div>
+            <!-- .main_footer__col_a -->
+
+            <div class="main_footer__col_b">
+                <span class="main_footer__col_b__name">About Us</span>
+
+                <ul class="main_footer__col_b__links">
+                    <li class="main_footer__col_b__links__item">
+                        <a href="#" class="main_footer__col_b__links__item__link">About Us</a>
+                    </li>
+
+                    <li class="main_footer__col_b__links__item">
+                        <a href="#" class="main_footer__col_b__links__item__link">Service Us</a>
+                    </li>
+
+                    <li class="main_footer__col_b__links__item">
+                        <a href="#" class="main_footer__col_b__links__item__link">Contact</a>
+                    </li>
+
+                    <li class="main_footer__col_b__links__item">
+                        <a href="#" class="main_footer__col_b__links__item__link">Company</a>
+                    </li>
+                </ul>
+                <!-- .main_footer__col_b__links -->
+            </div>
+            <!-- .main_footer__col_b -->
+
+            <div class="main_footer__col_c">
+                <span class="main_footer__col_c__name">Company</span>
+
+                <ul class="main_footer__col_c__links">
+                    <li class="main_footer__col_c__links__item">
+                        <a href="#" class="main_footer__col_c__links__item__link">Partnership</a>
+                    </li>
+
+                    <li class="main_footer__col_c__links__item">
+                        <a href="#" class="main_footer__col_c__links__item__link">Terms Of Use</a>
+                    </li>
+
+                    <li class="main_footer__col_c__links__item">
+                        <a href="#" class="main_footer__col_c__links__item__link">Privacy</a>
+                    </li>
+
+                    <li class="main_footer__col_c__links__item">
+                        <a href="#" class="main_footer__col_c__links__item__link">Sitemap</a>
+                    </li>
+                </ul>
+                <!-- .main_footer__col_c__links -->
+            </div>
+            <!-- .main_footer__col_c -->
+
+            <div class="main_footer__col_d">
+                <span class="main_footer__col_d__name">Get In Touch</span>
+
+                <p class="main_footer__col_d_info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, repellendus.
+                </p>
+
+                <form action="#" class="main_footer__col_d__form">
+                    <input type="email" required placeholder="Email" class="main_footer__col_d__form__input" />
+                    <button type="submit" class="main_footer__col_d__form__submit">Subscribe</button>
+                </form>
+                <!-- main_footer__cold_d_form -->
+            </div>
+            <!-- main_footer__cold_d -->
+        </footer>
     </body>
 </html>

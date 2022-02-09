@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #06c167;
+    --font-color: #1d1d1f;
+    --background-color-a: #f3fcf7;
+}
+
 *,
 *::before,
 *::after {
@@ -5,3 +11,115 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ? GLOBALS */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ? MAIN HEADER | START */
+
+.main_header__container {
+    background: var(--background-color-a);
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 0;
+}
+
+.main_header__branding__name {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.main_header__navigation__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+}
+
+.main_header__navigation__list__item__link {
+    display: block;
+    color: var(--font-color);
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.main_header__navigation__list__item__link:hover {
+    color: var(--primary-color);
+    transform: translateY(-0.4rem);
+}
+
+.main_header__navigation__list__item__link--highlight {
+    color: var(--primary-color);
+}
+
+.main_header__navigation__list__item__link--highlight::after {
+    content: "";
+    height: 0.4rem;
+    width: 0.4rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main_header__navigation__toggle {
+    display: none;
+}
+
+.main_header__navigation__toggle__input {
+    display: none;
+}
+
+.main_header__navigation__toggle__icon {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .main_header__navigation__toggle {
+        display: block;
+        z-index: 1;
+    }
+
+    .main_header__navigation__list {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--primary-color);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .main_header__navigation__list__item__link {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .main_header__navigation__list__item__link:hover {
+        color: var(--font-color);
+        transform: none;
+    }
+}
+
+/* ? MAIN HEADER | END */

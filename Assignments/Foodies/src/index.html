@@ -27,37 +27,42 @@
         <title>Foodies</title>
     </head>
     <body>
+        <!-- ? MAIN HEADER | START -->
         <div class="main_header__container">
-            <!-- ? MAIN HEADER | START -->
             <header class="main_header container">
                 <div class="main_header__branding">
-                    <span class="main_header__branding__name">Foodies</span>
+                    <a href="#" class="main_header__branding__name">Foodies</a>
                 </div>
                 <!-- .main_header__branding -->
 
-                <nav class="main_header__navigation">
+                <nav id="main_header__navigation" class="main_header__navigation">
                     <ul class="main_header__navigation__list">
-                        <li class="main_header__navigation__item">
-                            <a href="#" class="main_header__navigation__list__item__link">Home</a>
+                        <li class="main_header__navigation__list__item">
+                            <a
+                                href="#"
+                                class="main_header__navigation__list__item__link main_header__navigation__list__item__link--highlight"
+                            >
+                                Home
+                            </a>
                         </li>
                         <!-- .main_header__navigation__list__item -->
 
-                        <li class="main_header__navigation__item">
+                        <li class="main_header__navigation__list__item">
                             <a href="#" class="main_header__navigation__list__item__link">About Us</a>
                         </li>
                         <!-- .main_header__navigation__list__item -->
 
-                        <li class="main_header__navigation__item">
+                        <li class="main_header__navigation__list__item">
                             <a href="#" class="main_header__navigation__list__item__link">Service Us</a>
                         </li>
                         <!-- .main_header__navigation__list__item -->
 
-                        <li class="main_header__navigation__item">
+                        <li class="main_header__navigation__list__item">
                             <a href="#" class="main_header__navigation__list__item__link">Our Company</a>
                         </li>
                         <!-- .main_header__navigation__list__item -->
 
-                        <li class="main_header__navigation__item">
+                        <li class="main_header__navigation__list__item">
                             <a href="#" class="main_header__navigation__list__item__link">Pages</a>
                         </li>
                         <!-- .main_header__navigation__list__item -->
@@ -65,10 +70,27 @@
                     <!-- .main_header__navigation__list -->
                 </nav>
                 <!-- .main_header__navigation -->
+
+                <div class="main_header__navigation__toggle">
+                    <input
+                        type="checkbox"
+                        id="main_header__navigation__toggle__input"
+                        class="main_header__navigation__toggle__input"
+                    />
+
+                    <label
+                        for="main_header__navigation__toggle__input"
+                        id="main_header__navigation__toggle__label"
+                        class="main_header__navigation__toggle__label"
+                    >
+                        <i class="main_header__navigation__toggle__icon fa fa-bars"></i>
+                    </label>
+                    <!-- .main_header__navigation__toggle -->
+                </div>
+                <!-- .main_header__navigation__toggle -->
             </header>
-            <!-- ? MAIN HEADER | END -->
         </div>
-        <!-- .main_header__container -->
+        <!-- ? MAIN HEADER | END -->
 
         <!-- ? HERO SECTION | START -->
         <section class="hero container">
@@ -666,5 +688,7 @@
             </div>
             <!-- main_footer__cold_d -->
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html>

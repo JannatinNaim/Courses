@@ -28,3 +28,9 @@ navigationMenu.addEventListener("click", (e) => {
         navigationToggle.checked = true;
     }
 });
+
+document.addEventListener("scroll", () => {
+    navigationList.style.left = "100%";
+    navigationToggleIcon.style.color = "var(--primary-color)";
+    navigationToggle.checked = false;
+});

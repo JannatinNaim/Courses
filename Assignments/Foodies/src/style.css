@@ -376,7 +376,7 @@ body {
 .brand_links {
     display: flex;
     gap: 3rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .brand_links__link {
@@ -654,6 +654,12 @@ body {
 
     .stats__content__dots__overlay {
         top: 34rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats__content__stats {
+        flex-direction: column;
     }
 }
 

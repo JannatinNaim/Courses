@@ -22,10 +22,17 @@
 
 /* ? GLOBALS */
 
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Inter", sans-serif;
     color: var(--font-color);
+    max-width: 100vw;
     overflow-x: hidden;
+    position: relative;
 }
 
 .container {
@@ -156,7 +163,7 @@ body {
     .main_header__navigation__list {
         position: absolute;
         top: 0;
-        left: 100%;
+        left: 100vw;
         width: 100vw;
         height: 100vh;
         flex-direction: column;
@@ -357,15 +364,15 @@ body {
 
 @media (max-width: 510px) {
     .hero__banner__overview_rating {
-        top: 22rem;
+        top: 24rem;
     }
 
     .hero__banner__star__rating {
-        top: 26rem;
+        top: 28rem;
     }
 
     .hero__banner__dots_overlay {
-        top: 18rem;
+        top: 23rem;
     }
 }
 

@@ -1,7 +1,12 @@
 $primary-color: #094b72;
 $font-color: #4f4f4f;
 $font-color-bright: #8c8c8c;
-$background-color: #f8f9f8;
+$background-color-a: #f8f9f8;
+$background-color-b: #f2fcff;
+$background-color-c: #fcfcfc;
+$background-color-d: #3c80a2;
+$background-color-e: #f4fbff;
+$box-shadow-color-a: #e9e9e9;
 
 // ? MAIN HEADER | START
 .main_header {
@@ -37,10 +42,10 @@ $background-color: #f8f9f8;
     background: url("./images/hero__background.png");
     background-position: bottom right;
     background-size: cover;
-    background-color: $background-color;
+    background-color: $background-color-a;
 
     &__container {
-        background-color: $background-color;
+        background-color: $background-color-a;
     }
 
     &__name {
@@ -182,3 +187,238 @@ $background-color: #f8f9f8;
 }
 
 // ? HERO SECTION | END
+
+// ? FEATURES SECTION | START
+
+.features {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    &__container {
+        background-color: $background-color-b;
+    }
+
+    &__content {
+        &__name {
+            font-family: "Playfair Display", serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-top: 4rem;
+            margin-bottom: 2.5rem;
+        }
+
+        &__info {
+            font-family: "Poppins", sans-serif;
+            font-size: 1.25rem;
+            color: $font-color-bright;
+        }
+    }
+
+    &__cards {
+        max-width: 100%;
+
+        &__item {
+            background: $background-color-c;
+            padding: 1.5rem;
+            margin: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0px 0px 2rem $box-shadow-color-a;
+
+            &__icon {
+                display: block;
+            }
+
+            &__name {
+                font-family: "Playfair Display", serif;
+                font-size: 1.25rem;
+                margin: 0.5rem 0;
+                display: inline-block;
+            }
+
+            &__info {
+                color: $font-color-bright;
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .features {
+        padding-top: 0;
+        padding-bottom: 4rem;
+    }
+}
+
+// ? FEATURES SECTION | END
+
+// ? STATS SECTION | START
+
+.stats {
+    color: #ffffff;
+    text-align: center;
+
+    &__container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: url("./images/stats__background.png");
+        background-color: $background-color-d;
+    }
+
+    &__name {
+        font-size: 3rem;
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+    }
+
+    &__info {
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 4rem;
+    }
+
+    &__showcase {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+
+            &__name {
+                font-size: 3rem;
+                font-weight: 800;
+            }
+
+            &__info {
+                font-family: "Poppins", sans-serif;
+            }
+        }
+
+        &__item:nth-child(2) {
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+            padding: 0 4rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .stats {
+        &__showcase {
+            flex-direction: column;
+            gap: 2rem;
+
+            &__item:nth-child(2) {
+                border: none;
+                padding: 0;
+            }
+        }
+    }
+}
+
+// ? STATS SECTION | END
+
+// ? TESTIMONIALS SECTION | START
+
+.testimonials {
+    padding-bottom: 4rem;
+
+    &__container {
+        background: $background-color-e;
+    }
+
+    &__name {
+        font-family: "Playfair Display", serif;
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    &__showcase {
+        width: 100%;
+        max-width: 58rem;
+        margin: 0 auto;
+
+        &__item {
+            width: 75%;
+            max-width: 44rem;
+            margin: 0 auto;
+
+            &__content {
+                background: $background-color-c;
+                padding: 2rem;
+                border-radius: 1rem;
+                box-shadow: 0px 0px 2rem $box-shadow-color-a;
+                position: relative;
+                margin-bottom: 2rem;
+
+                &__name {
+                    text-align: center;
+                    font-weight: 500;
+                    margin-bottom: 1rem;
+                }
+
+                &__info {
+                    text-align: center;
+                    font-size: 0.85rem;
+                }
+
+                &::after {
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-left: 1rem solid transparent;
+                    border-right: 1rem solid transparent;
+                    border-top: 1rem solid $background-color-c;
+                    position: absolute;
+                    bottom: -1rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            &__author {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+
+                &__banner {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &__content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    &__name {
+                        font-weight: 700;
+                    }
+
+                    &__info {
+                        font-size: 0.85rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        &__showcase {
+            &__item {
+                &__content {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// ? TESTIMONIALS SECTION | END

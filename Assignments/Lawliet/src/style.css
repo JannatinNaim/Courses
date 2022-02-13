@@ -1,0 +1,155 @@
+.main_header {
+  font-family: "Poppins", sans-serif;
+}
+
+.main_header__navigation__branding__name {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.main_header__navigation__links__list__item__link {
+  font-size: 0.75rem;
+}
+
+.main_header__navigation__search {
+  color: #4f4f4f;
+}
+
+@media (min-width: 768px) {
+  .main_header__navigation__search {
+    margin-left: 8rem;
+  }
+}
+.hero__container {
+  background-color: #f8f9f8;
+}
+
+.hero {
+  background: url("./images/hero__background.png");
+  background-position: bottom right;
+  background-size: cover;
+  background-color: #f8f9f8;
+}
+
+.hero__name {
+  font-size: 5.5rem;
+  font-family: "Playfair Display", serif;
+  color: #094b72;
+  width: 57%;
+  padding-top: 8rem;
+}
+
+.hero__info {
+  font-size: 1.5rem;
+  color: #4f4f4f;
+  margin: 2.5rem 0;
+  width: 57%;
+}
+
+.hero__call_to_action {
+  text-decoration: none;
+  background: #094b72;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 1rem;
+  margin-bottom: 6rem;
+}
+
+.hero__sponsors__name {
+  font-size: 1.25rem;
+  color: #8c8c8c;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.hero__sponsors__gallery {
+  max-width: 18rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 1400px) {
+  .hero__name {
+    font-size: 4.5rem;
+    padding-top: 6rem;
+  }
+
+  .hero__info {
+    width: 45%;
+    font-size: 1.25rem;
+  }
+
+  .hero__call_to_action {
+    padding: 1.75rem;
+  }
+}
+@media (max-width: 1024px) {
+  .hero__name {
+    width: 75%;
+  }
+}
+@media (max-width: 992px) {
+  .hero__container {
+    background-position: right;
+  }
+
+  .hero__info {
+    width: 75%;
+  }
+}
+@media (max-width: 768px) {
+  .hero__container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("./images/hero__background_portrait.png");
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+
+  .hero {
+    background: none;
+  }
+
+  .hero__name {
+    font-size: 3.5rem;
+    width: 90%;
+    color: #ffffff;
+    text-shadow: 1px -1px 4px #094b72, 1px 1px 4px #094b72, -1px 1px 4px #094b72, -1px -1px 4px #094b72;
+    padding-top: 4rem;
+  }
+
+  .hero__info {
+    font-size: 1.25rem;
+    width: 90%;
+    color: #ffffff;
+  }
+
+  .hero__call_to_action {
+    margin-bottom: 2rem;
+  }
+
+  .hero__sponsors__name {
+    color: #ffffff;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 576px) {
+  .hero__name {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero__info {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero__call_to_action {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero__sponsors__gallery {
+    max-width: 8rem;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */

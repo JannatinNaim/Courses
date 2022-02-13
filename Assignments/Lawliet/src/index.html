@@ -18,6 +18,23 @@
             crossorigin="anonymous"
         ></script>
 
+        <!-- ? FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- ? STYLESHEETS -->
         <link rel="stylesheet" href="./style.css" />
 
@@ -25,7 +42,114 @@
         <title>Lawliet</title>
     </head>
     <body>
-        <div class="container"></div>
+        <!-- ? MAIN HEADER | START -->
+        <header class="main_header container-lg">
+            <nav class="main_header__navigation navbar navbar-expand-md navbar-light">
+                <a class="main_header__navigation__branding navbar-brand d-flex align-items-center gap-4" href="#">
+                    <img
+                        class="main_header__navigation__branding__logo"
+                        src="./images/main_header__navigation__branding__logo.png"
+                        alt="Brand Logo"
+                    />
+
+                    <span class="main_header__navigation__branding__name">Lawliet</span>
+                </a>
+                <!-- .main_header__navigation__branding -->
+
+                <button
+                    class="main_header__navigation__toggle navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#main_header__navigation__links"
+                >
+                    <span class="main_header__navigation__toggle__icon navbar-toggler-icon"></span>
+                </button>
+                <!-- .main_header__navigation__toggle -->
+
+                <div
+                    id="main_header__navigation__links"
+                    class="main_header__navigation__links collapse navbar-collapse d-md-flex justify-content-md-end"
+                >
+                    <ul class="main_header__navigation__links__list navbar-nav">
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">CONTACT</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">
+                                TESTIMONIALS
+                            </a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+                        <!-- ? HERO SECTION | START -->
+                        <!-- ? HERO SECTION | START -->
+                        <!-- ? HERO SECTION | START -->
+                        <!-- ? HERO SECTION | START -->
+                        <!-- ? HERO SECTION | START -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">ABOUT</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">TERMS</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+                    </ul>
+
+                    <a href="#" class="main_header__navigation__search">
+                        <i class="main_header__navigation__search__icon fas fa-search"></i>
+                    </a>
+                </div>
+                <!-- .main_header__navigation__links -->
+            </nav>
+            <!-- .main_header__navigation -->
+        </header>
+        <!-- ? MAIN HEADER | END -->
+
+        <!-- ? HERO SECTION | START -->
+        <div class="hero__container container-fluid">
+            <section class="hero container-lg">
+                <h1 class="hero__name">Your Solution Legal Consultancy</h1>
+                <p class="hero__info">
+                    We are here to help you take care of your legality with the best services especially for you.
+                </p>
+
+                <a href="#" class="hero__call_to_action">GET STARTED</a>
+
+                <div class="hero__sponsors">
+                    <span class="hero__sponsors__name">Trusted by 10+ companies in Indonesia</span>
+
+                    <div class="hero__sponsors__gallery row g-4">
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_a.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_b.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_c.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_d.png"
+                            alt="Sponsor Image"
+                        />
+                    </div>
+                    <!-- .hero__sponsors__gallery -->
+                </div>
+                <!-- .hero__sponsors -->
+            </section>
+        </div>
+        <!-- ? HERO SECTION | END -->
 
         <script src="./script.js"></script>
     </body>

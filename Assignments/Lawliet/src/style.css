@@ -48,6 +48,12 @@
   display: inline-block;
   border-radius: 1rem;
   margin-bottom: 6rem;
+  transition: all 0.3s ease-in-out 0s;
+}
+.hero__call_to_action:hover, .support__call_to_action:hover {
+  color: #094b72;
+  outline: 2px solid #094b72;
+  background: transparent;
 }
 .hero__sponsors__name {
   font-size: 1.25rem;
@@ -405,6 +411,11 @@
 .main_footer__col_b__links__item__link, .main_footer__col_c__links__item__link, .main_footer__col_d__links__item__link {
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+.main_footer__col_b__links__item__link:hover, .main_footer__col_c__links__item__link:hover, .main_footer__col_d__links__item__link:hover {
+  color: #ffffff;
+  text-shadow: 0px 0px 2px #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -436,6 +447,12 @@
 .copyright__links {
   display: flex;
   gap: 1rem;
+  transition: all 0.3s ease-in-out 0s;
+}
+.copyright__links > *:hover {
+  position: relative;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

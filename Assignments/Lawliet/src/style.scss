@@ -6,6 +6,7 @@ $background-color-b: #f2fcff;
 $background-color-c: #fcfcfc;
 $background-color-d: #3c80a2;
 $background-color-e: #f4fbff;
+$background-color-f: #05546d;
 $box-shadow-color-a: #e9e9e9;
 
 // ? MAIN HEADER | START
@@ -502,3 +503,103 @@ $box-shadow-color-a: #e9e9e9;
 }
 
 // ? SUPPORT SECTION | END
+
+// ? MAIN FOOTER | START
+
+.main_footer {
+    &__container {
+        background: $primary-color;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    &__col_a {
+        &__branding {
+            display: flex;
+            align-items: center;
+
+            &__logo {
+                margin-right: 1.25rem;
+            }
+
+            &__name {
+                font-size: 1.5rem;
+                color: #ffffff;
+                font-weight: 700;
+            }
+        }
+    }
+
+    &__col_b,
+    &__col_c,
+    &__col_d {
+        &__name {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        &__links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            &__item {
+                display: block;
+                margin-bottom: 0.5rem;
+
+                &__link {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main_footer {
+        text-align: center;
+
+        &__col_a__branding {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__col_a,
+        &__col_b,
+        &__col_c,
+        &__col_d {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+// ? MAIN FOOTER | END
+
+// ? COPYRIGHT SECTION | START
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    &__container {
+        background: $background-color-f;
+    }
+
+    &__name {
+        color: #ffffff;
+        margin: 0;
+    }
+
+    &__links {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+// ? COPYRIGHT SECTION | END

@@ -455,4 +455,13 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .copyright {
+    flex-direction: column;
+  }
+  .copyright__name {
+    margin-bottom: 1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

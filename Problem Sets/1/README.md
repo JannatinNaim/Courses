@@ -3,5 +3,5 @@
 Week 0's problem set that includes:
 
 -   [x] Greet User.
--   [ ] Mario World.
--   [ ] Cash / Credit.
+-   [x] Mario World.
+-   [x] Cash / Credit.

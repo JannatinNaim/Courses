@@ -16,6 +16,8 @@ colorPallet.addEventListener("click", (e) => {
   alertBox.style.display = "block";
   alertBox.style.background = color;
 
+  navigator.clipboard.write(color);
+
   setTimeout(() => {
     alertBox.style.display = "none";
   }, 1200);

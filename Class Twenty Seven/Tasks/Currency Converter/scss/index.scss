@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.currency_converter_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  .base {
+    &__name {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    #currency_converter_form__base_currency {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    &__inputs {
+      &__amount__label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      #base__inputs__amount {
+        width: 100%;
+      }
+    }
+  }
+
+  .convert {
+    &__name {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    #currency_converter_form__convert_currency {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    &__inputs {
+      &__amount__label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      #convert__inputs__amount {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.bmi_calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.bmi_calculator .section_name, .bmi_calculator .weight_selection__name, .bmi_calculator .height_selection__name, .bmi_calculator .age_selection__name, .bmi_calculator .gender_selection__name {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.bmi_calculator .subheading {
+  font-size: 0.8rem;
+  opacity: 0.67;
+}
+.bmi_calculator .gender_selection {
+  margin-bottom: 1rem;
+}
+.bmi_calculator .gender_selection__inputs {
+  display: flex;
+  gap: 2rem;
+}
+.bmi_calculator .age_selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.bmi_calculator .height_selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.bmi_calculator .weight_selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.bmi_result,
+.bmi_value {
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=index.css.map */

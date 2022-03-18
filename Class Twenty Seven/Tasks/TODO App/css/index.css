@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.todo_input {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.todo_input__name {
+  width: 300px;
+}
+
+.tasks_list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: fit-content;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=index.css.map */

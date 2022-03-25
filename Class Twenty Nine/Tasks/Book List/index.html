@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./js/script.js" defer></script>
+
+    <title>Book List</title>
+  </head>
+  <body>
+    <h1 class="page__name">Book List</h1>
+
+    <form action="#" class="book_form">
+      <label for="book_form__name_input">Title</label>
+      <input required type="text" id="book_form__name_input" />
+
+      <label for="book_form__author_input">Author</label>
+      <input required type="text" id="book_form__author_input" />
+
+      <label for="book_form__year_input">Year</label>
+      <input required type="number" id="book_form__year_input" />
+
+      <button class="book_form__submit" type="submit">ADD BOOK</button>
+    </form>
+    <!-- .book_form -->
+
+    <table class="book_list">
+      <thead class="book_list__head">
+        <tr class="book_list__head__row">
+          <th class="book_list__head__row__title">Book</th>
+          <th class="book_list__head__row__title">Author</th>
+          <th class="book_list__head__row__title">Year</th>
+        </tr>
+        <!-- .book_list__head__row -->
+      </thead>
+      <!-- .book_list__head -->
+
+      <tbody class="book_list__body"></tbody>
+      <!-- .book_list__body -->
+    </table>
+    <!-- .book_list -->
+  </body>
+</html>

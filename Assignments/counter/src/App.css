@@ -1,0 +1,56 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app__name {
+  text-align: center;
+}
+
+.counter__number {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.increment_buttons,
+.decrement_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.decrement_buttons {
+  margin-bottom: 2rem;
+}
+
+.offset_count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.offset_buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}

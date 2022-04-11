@@ -16,37 +16,4 @@
       margin-bottom: 0.5rem;
     }
   }
-
-  .personal-information {
-    &__item {
-      margin: 0.2rem 0;
-
-      display: flex;
-
-      &__name {
-        flex: 0.45;
-      }
-
-      &__divider {
-        flex: 0.05;
-      }
-
-      &__info {
-        flex: 0.5;
-        align-self: flex-end;
-      }
-    }
-  }
-
-  .hobbies {
-    &__hobby {
-      margin: 0.2rem 0;
-    }
-  }
-
-  .interests {
-    &__interest {
-      margin: 0.2rem 0;
-    }
-  }
 }

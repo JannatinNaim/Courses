@@ -58,8 +58,8 @@
     &__item {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       gap: 1rem;
+      flex-direction: column;
 
       width: 100%;
       max-width: 500px;
@@ -80,6 +80,10 @@
         display: flex;
         justify-content: space-between;
         gap: 0.4rem;
+
+        > * {
+          flex: 1;
+        }
 
         &__button {
           background: #00bcd4;

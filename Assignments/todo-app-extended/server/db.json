@@ -1,0 +1,28 @@
+{
+  "TODOs": [
+    {
+      "id": 1650751403693,
+      "name": "soup",
+      "description": "Heyo! How's it going?",
+      "completed": false
+    },
+    {
+      "id": 1650751413987,
+      "name": "fun",
+      "description": "Who says todo apps aren't fun?",
+      "completed": false
+    },
+    {
+      "id": 1650751526422,
+      "name": "longgg text",
+      "description": "Here's some really long text that's not going to fit within the container but it will still be visible in the full card. The preview should have a ... when it reaches the max limit. ;)",
+      "completed": false
+    },
+    {
+      "id": 1650751540159,
+      "name": "done with this",
+      "description": "Just an example of a completed todo. ;)",
+      "completed": true
+    }
+  ]
+}

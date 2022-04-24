@@ -1,0 +1,216 @@
+.main {
+  width: 96%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  &__name {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+}
+
+.students-list {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  & > * {
+    flex: 1;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+
+  & > * {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__inputs {
+    & > * {
+      font-size: 1.0125rem;
+      font-family: inherit;
+      padding: 0.2rem;
+      margin: 0.2rem 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    &__description {
+      resize: none;
+      height: 70px;
+    }
+  }
+
+  &__actions {
+    & > * {
+      padding: 0.2rem;
+      font-size: 1.0125rem;
+      margin: 0.4rem 0;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    &__submit {
+      &--add {
+        background: rgb(0, 177, 0);
+      }
+
+      &--update {
+        background: rgb(0, 179, 255);
+      }
+    }
+
+    &__cancel {
+      background: rgb(255, 0, 0);
+    }
+  }
+}
+
+.student-preview {
+  background: #ccc;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__content {
+    padding-bottom: 1rem;
+
+    & > * {
+      display: block;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.4rem;
+
+    & > * {
+      flex: 1;
+      border: none;
+      padding: 0.2rem;
+      border-radius: 0.4rem;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    &__present {
+      background: rgb(0, 177, 0);
+    }
+
+    &__absent {
+      background: rgb(0, 179, 255);
+    }
+
+    &__edit {
+      background: #333;
+    }
+
+    &__delete {
+      background: rgb(255, 0, 0);
+    }
+  }
+}
+
+.all-students {
+  border: 1px solid rgb(0, 179, 255);
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.present-students {
+  border: 1px solid rgb(0, 177, 0);
+  border-radius: 1rem;
+  padding: 0.4rem;
+
+  .student-preview-present-or-absent {
+    background: rgb(0, 177, 0);
+    color: #fff;
+  }
+}
+
+.absent-students {
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 1rem;
+  padding: 0.4rem;
+
+  .student-preview-present-or-absent {
+    background: rgb(255, 0, 0);
+    color: #fff;
+  }
+}
+
+.student-preview-present-or-absent {
+  background: #ccc;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  &__actions {
+    display: flex;
+
+    & > * {
+      flex: 1;
+      border: none;
+      padding: 0.2rem;
+      border-radius: 0.4rem;
+      color: #fff;
+    }
+
+    &__toggle {
+      background: #333;
+      cursor: pointer;
+    }
+  }
+}
+
+.student {
+  width: 96%;
+  max-width: 420px;
+  margin: 2rem auto;
+  background: #ccc;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+
+  &__content {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  &__link {
+    color: #333;
+  }
+}

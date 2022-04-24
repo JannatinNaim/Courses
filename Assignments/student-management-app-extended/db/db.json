@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "id": 1650798716615,
+      "name": "Jannatin Naim",
+      "roll": "8",
+      "class": "X",
+      "section": "Apex",
+      "description": "Just a normal student, nothing to look.",
+      "isPresent": false
+    },
+    {
+      "id": 1650798741028,
+      "name": "Nushrat Jahan",
+      "roll": "10",
+      "class": "V",
+      "section": "A",
+      "description": "IDK, that's just my sis. ;)",
+      "isPresent": true
+    },
+    {
+      "id": 1650798767487,
+      "name": "Student A",
+      "roll": "0",
+      "class": "I",
+      "section": "C",
+      "description": "Random student. Doesn't matter.",
+      "isPresent": false
+    },
+    {
+      "id": 1650798784658,
+      "name": "Student B",
+      "roll": "1",
+      "class": "II",
+      "section": "D",
+      "description": "Another random student.",
+      "isPresent": true
+    }
+  ]
+}

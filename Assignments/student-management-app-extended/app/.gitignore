@@ -1,0 +1,8 @@
+# HIDDEN FILES
+.*
+
+# NODE MODULES
+node_modules/
+
+# ALLOWED HIDDEN FILES
+!.gitignore

@@ -46,6 +46,16 @@ export default function listsReducer(lists, action) {
         return list;
       });
 
+    case "SORT_LIST":
+      return lists.map((list) => {
+        if (list.listID === action.payload.listID) {
+          list.listTaskIDs.splice(action.payload.currentIndex, 1);
+          list.listTaskIDs.splice(action.payload.updatedIndex, 0, action.payload.taskID);
+        }
+
+        return list;
+      });
+
     default:
       return lists;
   }

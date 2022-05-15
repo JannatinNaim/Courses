@@ -52,6 +52,7 @@ body {
   }
 
   &__item {
+    min-width: 250px;
     &__link {
       text-decoration: none;
       color: #333;
@@ -175,11 +176,18 @@ body {
   display: flex;
   align-items: center;
   gap: 0.2rem;
+  & > * {
+    flex: 1;
+  }
 
   &__form {
     display: flex;
     align-items: center;
     gap: 0.2rem;
+
+    & > * {
+      flex: 1;
+    }
 
     &__name {
       width: 100%;
@@ -196,10 +204,15 @@ body {
     }
   }
 
-  &__move, &__copy {
+  &__move,
+  &__copy {
     display: flex;
     align-items: center;
     gap: 0.2rem;
+
+    & > * {
+      flex: 1;
+    }
 
     &__submit {
       border: none;
@@ -282,13 +295,20 @@ body {
 .task-actions {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 0.2rem;
+
+  & > * {
+    flex: 1;
+  }
 
   &__form {
     display: flex;
     align-items: center;
     gap: 0.2rem;
+
+    & > * {
+      flex: 1;
+    }
 
     &__name {
       padding: 0.2rem;
@@ -304,10 +324,15 @@ body {
     }
   }
 
-  &__move, &__copy {
+  &__move,
+  &__copy {
     display: flex;
     align-items: center;
     gap: 0.2rem;
+
+    & > * {
+      flex: 1;
+    }
 
     &__options {
       display: flex;

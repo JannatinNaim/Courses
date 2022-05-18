@@ -4,7 +4,7 @@ import BoardsList from "../components/BoardsList"
 const AllBoards = () => {
   return (
     <div className="all-boards">
-      <h1 className="all-boards__name">Trello Clone Application</h1>
+      <h1 className="all-boards__name">Task Manager</h1>
 
       <BoardForm />
 

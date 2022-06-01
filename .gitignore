@@ -1,5 +1,2 @@
-# MacOS
-.DS_Store
-
-# Python Virtual Environment
-.venv
+.*
+!.gitignore

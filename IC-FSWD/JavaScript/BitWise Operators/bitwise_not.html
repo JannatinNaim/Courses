@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <style>
+            body {
+                font-family: 'JetBrainsMono Nerd Font', monospace;
+            }
+        </style>
+
+        <title>BitWise NOT Operator</title>
+    </head>
+    <body>
+        <script>
+            let a, s;
+            let x1, x2, y;
+
+            x1 = 15;
+            x2 = 25;
+
+            s = (x1 >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s + '<br />');
+
+            y = ~x1;
+            s = (y >>> 0).toString(2);
+            s = '00000000000000000000000000000000'.substr(s.length) + s;
+            document.write(s + '<br />');
+        </script>
+    </body>
+</html>

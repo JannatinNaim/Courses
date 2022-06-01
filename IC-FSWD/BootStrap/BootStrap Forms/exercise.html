@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" />
+
+        <style>
+            body {
+                background: rgb(40, 44, 52);
+            }
+        </style>
+
+        <title>BootStrap</title>
+    </head>
+
+    <body class="container text-white">
+        <div class="col-md-6">
+            <form action="#">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="text-white form-control-plaintext"
+                        value="JannatinNaim"
+                        readonly
+                    />
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <input type="checkbox" name="consent" id="consent" class="form-check-input" />
+                    <label for="consent">I give consent that I agree to the term.</label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" type="file" id="formFile" />
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple />
+                </div>
+                <div class="mb-3">
+                    <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+                    <input class="form-control" type="file" id="formFileDisabled" disabled />
+                </div>
+                <div class="mb-3">
+                    <label for="formFileSm" class="form-label">Small file input example</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file" />
+                </div>
+                <div>
+                    <label for="formFileLg" class="form-label">Large file input example</label>
+                    <input class="form-control form-control-lg" id="formFileLg" type="file" />
+                </div>
+
+                <br />
+
+                <label for="exampleColorInput" class="form-label">Color picker</label>
+                <input
+                    type="color"
+                    class="form-control form-control-color"
+                    id="exampleColorInput"
+                    value="#563d7c"
+                    title="Choose your color"
+                />
+
+                <label for="exampleDataList" class="form-label">Datalist example</label>
+                <input
+                    class="form-control"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Type to search..."
+                />
+
+                <datalist id="datalistOptions">
+                    <option value="San Francisco"></option>
+                    <option value="New York"></option>
+                    <option value="Seattle"></option>
+                    <option value="Los Angeles"></option>
+                    <option value="Chicago"></option>
+                </datalist>
+
+                <br />
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- BOOTSTRAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

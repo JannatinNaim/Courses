@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        .box-one {
+            height: 300px;
+            width: 300px;
+            background: cadetblue;
+            opacity: 0.5;
+
+            /* position: fixed; */
+            top: 50%;
+            left: 50%;
+            /* top: 100px; */
+            /* left: 100px; */
+
+            /* position: relative; */
+            /* top: 100px;
+            left: 100px; */
+            /* right: 0;
+            bottom: 0; */
+        }
+
+        .box-two {
+            width: 300px;
+            height: 500px;
+            background: crimson;
+            position: relative;
+        }
+
+        .box-child {
+            width: 100px;
+            height: 100px;
+            background: darkorange;
+            position: sticky;
+            top: 100px;
+            /* position: absolute;
+            top: 0;
+            right: 0; */
+            /* position: relative;
+            left: 100px; */
+        }
+
+    </style>
+
+    <title>CSS Position</title>
+</head>
+
+<body>
+    <!--
+        1. Absolute - Removes item from normal document flow.
+        2. Relative - Maintains item in normal document flow.
+        3. Fixed - Removes item from normal document flow.
+        4. Relative + Absolute
+        5. Sticky
+    -->
+
+    <div class="box-one"></div>
+
+    <div class="box-two">
+        <div class="box-child"></div>
+    </div>
+</body>
+
+</html>

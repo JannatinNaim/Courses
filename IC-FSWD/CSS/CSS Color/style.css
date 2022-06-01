@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0.5);
+
+    /* Selected From Color Picker */
+    color: rgb(165, 0, 0);
+
+    color: hsl(100, 50, 50);
+}
+
+/* https://color.adobe.com */
+/* https://coolors.co/ */
+/* https://themeforest.net/ */

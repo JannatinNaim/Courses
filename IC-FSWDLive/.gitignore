@@ -1,0 +1,8 @@
+# Hidden Stuff
+.*
+
+# Allowed Hidden Stuff
+!.gitignore
+
+# Node Modules
+node_modules/

@@ -1,0 +1,120 @@
+<!-- ! NOTE: I was slacking on class cause, SICK! -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <style>
+            :root {
+                --primary-color: #06c167;
+            }
+
+            *,
+            *::before,
+            *::after {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+
+            .container {
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            .products {
+                display: flex;
+            }
+
+            .products > * {
+                flex: 1;
+            }
+
+            .product {
+                border: 1px solid var(--primary-color);
+            }
+        </style>
+
+        <title>CSS Naming Convention</title>
+    </head>
+
+    <body>
+        <div class="products-area">
+            <section class="products container">
+                <div class="product">
+                    <div class="product__image">
+                        <img src="./banana.png" alt="Banana" />
+                    </div>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="product__name">Summer Veganie</h3>
+                    <p class="product__price"><span class="product__price--old">$29</span> &nbsp; $25</p>
+                    <button class="product__btn">Buy Now <i class="fas fa-arrow-circle-right"></i></button>
+                </div>
+                <div class="product">
+                    <div class="product__image">
+                        <img src="./banana.png" alt="Banana" />
+                    </div>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="product__name">Summer Veganie</h3>
+                    <p class="product__price"><span class="product__price--old">$29</span> &nbsp; $25</p>
+                    <button class="product__btn">Buy Now <i class="fas fa-arrow-circle-right"></i></button>
+                </div>
+                <div class="product">
+                    <div class="product__image">
+                        <img src="./banana.png" alt="Banana" />
+                    </div>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="product__name">Summer Veganie</h3>
+                    <p class="product__price"><span class="product__price--old">$29</span> &nbsp; $25</p>
+                    <button class="product__btn">Buy Now <i class="fas fa-right-arrow"></i></button>
+                </div>
+                <div class="product">
+                    <div class="product__image">
+                        <img src="./banana.png" alt="Banana" />
+                    </div>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="product__name">Summer Veganie</h3>
+                    <p class="product__price"><span class="product__price--old">$29</span> &nbsp; $25</p>
+                    <button class="product__btn">Buy Now <i class="fas fa-right-arrow"></i></button>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./js/script.js" defer></script>
+
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <h1 class="page_title">BMI Calculator</h1>
+
+    <form action="#" class="bmi_calculator">
+      <div class="height_selection">
+        <span class="height_selection__name">Height <span class="subheading">(cm)</span></span>
+
+        <input type="number" id="height_selection__input" />
+      </div>
+      <!-- .height_selection -->
+
+      <div class="weight_selection">
+        <span class="weight_selection__name">Weight <span class="subheading">(kg)</span></span>
+
+        <input type="number" id="weight_selection__input" />
+      </div>
+      <!-- .weight_selection -->
+
+      <input type="submit" />
+    </form>
+    <!-- .bmi_calculator -->
+
+    <span class="bmi_result">BMI</span>
+    <span class="bmi_value">00</span>
+  </body>
+</html>

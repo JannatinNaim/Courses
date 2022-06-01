@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1650798767487,
+      "name": "Student A",
+      "roll": "0",
+      "class": "I",
+      "section": "C",
+      "description": "Random student. Doesn't matter.",
+      "isPresent": false
+    },
+    {
+      "id": 1650798784658,
+      "name": "Student B",
+      "roll": "1",
+      "class": "II",
+      "section": "D",
+      "description": "Another random student.",
+      "isPresent": false
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade_in_out {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes click_effect {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+.alert_box {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 99;
+  animation-name: fade_in_out;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+.alert_box__name {
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px #00000088;
+}
+.alert_box__name__background {
+  position: absolute;
+  width: 100%;
+  height: 8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffffff66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert_box__value {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #00000088;
+}
+
+.color_pallet {
+  height: 100vh;
+  width: 100vw;
+}
+.color_pallet .card {
+  position: relative;
+}
+.color_pallet .card .card_overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+.color_pallet .card .copy_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: 2px solid #ffffff44;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+.color_pallet .card__name {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+.color_pallet .card:hover {
+  cursor: pointer;
+}
+.color_pallet .card:hover .copy_button {
+  animation-name: fade_in;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.color_pallet .card:active .copy_button {
+  animation-name: click_effect;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+}
+.color_pallet__row {
+  display: flex;
+  height: 25%;
+}
+.color_pallet__row > * {
+  flex: 1;
+}
+.color_pallet .turquoise {
+  background-color: #1abc9c;
+}
+.color_pallet .emerald {
+  background-color: #2ecc71;
+}
+.color_pallet .peter_river {
+  background-color: #3498db;
+}
+.color_pallet .amethyst {
+  background-color: #9b59b6;
+}
+.color_pallet .wet_asphalt {
+  background-color: #34495e;
+}
+.color_pallet .green_sea {
+  background-color: #16a085;
+}
+.color_pallet .nephritis {
+  background-color: #27ae60;
+}
+.color_pallet .belize_hole {
+  background-color: #2980b9;
+}
+.color_pallet .wisteria {
+  background-color: #8e44ad;
+}
+.color_pallet .midnight_blue {
+  background-color: #2c3e50;
+}
+.color_pallet .sunflower {
+  background-color: #f1c40f;
+}
+.color_pallet .carrot {
+  background-color: #e67e22;
+}
+.color_pallet .alizarin {
+  background-color: #e74c3c;
+}
+.color_pallet .clouds {
+  background-color: #ecf0f1;
+}
+.color_pallet .concrete {
+  background-color: #95a5a6;
+}
+.color_pallet .orange {
+  background-color: #f39c12;
+}
+.color_pallet .pumpkin {
+  background-color: #d35400;
+}
+.color_pallet .pomegranate {
+  background-color: #c0392b;
+}
+.color_pallet .silver {
+  background-color: #bdc3c7;
+}
+.color_pallet .asbestos {
+  background-color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+  .color_pallet .card .copy_button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  .color_pallet .card__name {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

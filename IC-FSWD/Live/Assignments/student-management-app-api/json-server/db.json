@@ -1,0 +1,24 @@
+{
+  "students": [
+    {
+      "id": 1650485986563,
+      "name": "soup",
+      "isPresent": true
+    },
+    {
+      "id": 1650485988062,
+      "name": "oho",
+      "isPresent": false
+    },
+    {
+      "id": 1650485990881,
+      "name": "cool",
+      "isPresent": true
+    },
+    {
+      "id": 1650485999004,
+      "name": "it works :)",
+      "isPresent": false
+    }
+  ]
+}

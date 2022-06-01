@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 4rem auto;
+    padding: 4rem 0;
+    position: relative;
+}
+
+img {
+    position: absolute;
+}
+
+.one {
+    border: 1px solid red;
+    border-bottom: none;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    position: absolute;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.two {
+    top: 0px;
+    left: 250px;
+}
+
+.three {
+    top: 325px;
+    left: 390px;
+}
+
+.four {
+    top: 225px;
+    left: 500px;
+}

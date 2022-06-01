@@ -1,0 +1,48 @@
+import { useEffect, useState } from "react";
+import "./App.scss";
+import StudentInputForm from "./components/StudentInputForm";
+import StudentList from "./components/StudentList";
+
+function App() {
+  const [studentName, setStudentName] = useState("");
+  const [allStudents, setAllStudents] = useState([]);
+  const [editMode, setEditMode] = useState(false);
+  const [volatileStudent, setVolatileStudent] = useState(null);
+
+  function fetchStudents() {
+    fetch("http://localhost:3000/students")
+      .then((response) => response.json())
+      .then((data) => setAllStudents(data));
+  }
+
+  useEffect(fetchStudents, []);
+
+  return (
+    <div className="app">
+      <h1 className="app__name">Student Management App</h1>
+
+      <StudentInputForm
+        studentName={studentName}
+        setStudentName={setStudentName}
+        allStudents={allStudents}
+        setAllStudents={setAllStudents}
+        editMode={editMode}
+        setEditMode={setEditMode}
+        volatileStudent={volatileStudent}
+        setVolatileStudent={setVolatileStudent}
+        fetchStudents={fetchStudents}
+      />
+
+      <StudentList
+        setStudentName={setStudentName}
+        allStudents={allStudents}
+        setAllStudents={setAllStudents}
+        setEditMode={setEditMode}
+        setVolatileStudent={setVolatileStudent}
+        fetchStudents={fetchStudents}
+      />
+    </div>
+  );
+}
+
+export default App;

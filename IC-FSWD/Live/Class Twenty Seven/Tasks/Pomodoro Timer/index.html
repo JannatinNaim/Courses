@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./js/script.js" defer></script>
+
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <h1 class="page_title">Pomodoro Timer</h1>
+
+    <div class="timer">
+      <div class="timer__count">
+        <span class="timer__count__name">Pomodoro</span>
+
+        <div class="timer__count__timer">
+          <div class="timer__count__timer__minutes">
+            <span class="timer__count__timer__minutes__name">25</span>
+            <span class="timer__count__timer__minutes__info">Minutes</span>
+          </div>
+          <!-- .timer__count__timer__minutes -->
+
+          <span class="timer__separator">:</span>
+
+          <div class="timer__count__timer__seconds">
+            <span class="timer__count__timer__seconds__name">0</span>
+            <span class="timer__count__timer__seconds__info">Seconds</span>
+          </div>
+          <!-- .timer__count__timer__seconds -->
+        </div>
+        <!-- .timer__count__timer -->
+      </div>
+      <!-- .timer__count -->
+
+      <div class="timer__break">
+        <span class="timer__break__name">Break</span>
+
+        <div class="timer__break__timer">
+          <div class="timer__break__timer__minutes">
+            <span class="timer__break__timer__minutes__name">5</span>
+            <span class="timer__break__timer__minutes__info">Minutes</span>
+          </div>
+          <!-- .timer__break__timer__minutes -->
+
+          <span class="timer__separator">:</span>
+
+          <div class="timer__break__timer__seconds">
+            <span class="timer__break__timer__seconds__name">0</span>
+            <span class="timer__break__timer__seconds__info">Seconds</span>
+          </div>
+          <!-- .timer__break__timer__seconds -->
+        </div>
+      </div>
+      <!-- .timer__break -->
+    </div>
+    <!-- .timer -->
+
+    <div class="controls">
+      <button class="button_start">Start</button>
+      <button class="button_reset">Reset</button>
+      <button class="button_pause" disabled>Pause</button>
+    </div>
+    <!-- .controls -->
+
+    <button class="dev">DEV</button>
+  </body>
+</html>

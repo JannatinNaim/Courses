@@ -1,0 +1,137 @@
+.app {
+  &__name {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .student-input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+
+    &__name {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    &__submit,
+    &__cancel,
+    &__edit {
+      margin-bottom: 0.5rem;
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    &__submit {
+      background: rgb(66, 171, 209);
+    }
+
+    &__edit {
+      background: rgb(84, 179, 32);
+    }
+
+    &__cancel {
+      background: rgb(213, 104, 16);
+    }
+  }
+
+  .student-list {
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    > * {
+      flex: 1;
+      padding: 1rem;
+      height: 658px;
+      overflow-y: auto;
+      border-radius: 0.5rem;
+
+      h2 {
+        text-align: center;
+        padding: 0.5rem;
+        text-decoration: underline;
+      }
+
+      ul {
+        li {
+          list-style: none;
+          padding: 0.5rem;
+          border-bottom: 1px solid #ccc;
+
+          &:last-child {
+            border: none;
+          }
+
+          [class$="name"] {
+            display: block;
+            margin-bottom: 0.5rem;
+          }
+
+          [class$="actions"] {
+            display: flex;
+            gap: 1rem;
+
+            > * {
+              flex: 1;
+              padding: 0.4rem;
+              border: none;
+              border-radius: 0.4rem;
+              cursor: pointer;
+            }
+
+            .present {
+              background: rgb(138, 231, 88);
+            }
+
+            .absent {
+              background: rgb(227, 109, 109);
+            }
+
+            .edit {
+              background: rgb(128, 129, 127);
+            }
+
+            .delete {
+              background: rgba(61, 88, 211, 0.375);
+            }
+          }
+        }
+      }
+    }
+
+    .all-student-list {
+      border: 2px solid rgb(104, 104, 104);
+    }
+
+    .present-student-list {
+      border: 2px solid rgb(84, 179, 32);
+    }
+
+    .absent-student-list {
+      border: 2px solid rgb(200, 21, 21);
+    }
+  }
+}

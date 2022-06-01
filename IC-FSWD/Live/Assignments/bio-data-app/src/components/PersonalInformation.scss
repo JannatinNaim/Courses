@@ -1,0 +1,20 @@
+.personal-information {
+  &__item {
+    margin: 0.2rem 0;
+
+    display: flex;
+
+    &__name {
+      flex: 0.45;
+    }
+
+    &__divider {
+      flex: 0.05;
+    }
+
+    &__info {
+      flex: 0.5;
+      align-self: flex-end;
+    }
+  }
+}

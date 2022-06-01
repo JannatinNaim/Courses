@@ -1,0 +1,57 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+
+  &__name {
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
+
+.counter-display {
+  text-align: center;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.increment-buttons,
+.decrement-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+  margin: 2rem 0;
+
+  & > * {
+    display: block;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    cursor: pointer;
+  }
+}
+
+.custom-increment-or-decrement-value {
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+  font-size: 1.125rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+.custom-increment-or-decrement-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+
+  & > * {
+    flex: 1;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    cursor: pointer;
+  }
+}

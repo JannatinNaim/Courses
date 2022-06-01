@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.dummy_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.dummy_form__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.dummy_form__inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.generated_text {
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-size: 1.25rem;
+}
+.generated_text__item {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */

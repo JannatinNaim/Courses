@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./js/script.js" defer></script>
+
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <h1 class="page_title">Currency Converter</h1>
+
+    <form action="#" class="currency_converter_form">
+      <div class="base">
+        <span class="base__name">Base</span>
+
+        <select name="base_currency" id="currency_converter_form__base_currency"></select>
+
+        <div class="base__inputs">
+          <label class="base__inputs__amount__label" for="base__inputs__amount">Amount</label>
+          <input id="base__inputs__amount" type="number" value="1" />
+        </div>
+      </div>
+      <!-- .currency_converter_form .base -->
+
+      <div class="convert">
+        <span class="convert__name">Convert</span>
+
+        <select name="convert_currency" id="currency_converter_form__convert_currency"></select>
+
+        <div class="convert__inputs">
+          <label class="convert__inputs__amount__label" for="convert__inputs__amount">Amount</label>
+          <input id="convert__inputs__amount" type="number" value="1" />
+        </div>
+      </div>
+      <!-- .currency_converter_form .convert -->
+    </form>
+    <!-- .currency_converter_form -->
+  </body>
+</html>

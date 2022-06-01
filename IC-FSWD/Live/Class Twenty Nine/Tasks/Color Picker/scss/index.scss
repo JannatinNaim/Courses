@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.global_background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: red;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.generate_button {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.color_code {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  font-family: monospace;
+}

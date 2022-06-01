@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ? PAGE SETTINGS -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- ? ICONIFY -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.1.1/iconify.min.js"
+            integrity="sha512-Xx3gEFb56pftXxdbHztvZftnO7ZIY4Rj2JxF3a1yEa5MWkRgemfMknhel27ecH3GNJM59mh5YnUDP1aztFWwcw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <!-- ? STYLESHEETS -->
+        <link rel="stylesheet" href="./style.css" />
+
+        <!-- ? PAGE TITLE -->
+        <title>Basic CSS</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Basic CSS</h1>
+
+            <!-- ? PRICING TABLE -->
+            <section id="pricing_table">
+                <table>
+                    <caption>
+                        Food Price
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>STORE</th>
+                            <th>CATEGORY</th>
+                            <th>QTY</th>
+                            <th>UNIT</th>
+                            <th>UNIT PRICE</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Oranges</td>
+                            <td>Grocery</td>
+                            <td>Produce</td>
+                            <td>2</td>
+                            <td>lbs</td>
+                            <td>$2.99</td>
+                            <td>$5.99</td>
+                        </tr>
+                        <tr>
+                            <td>Apples</td>
+                            <td>Orchard</td>
+                            <td>Produce</td>
+                            <td>3</td>
+                            <td>lbs</td>
+                            <td>$1.99</td>
+                            <td>$5.97</td>
+                        </tr>
+                        <tr>
+                            <td>Bananas</td>
+                            <td>Grocery</td>
+                            <td>Produce</td>
+                            <td>1</td>
+                            <td>bunch</td>
+                            <td>$3.99</td>
+                            <td>$3.99</td>
+                        </tr>
+                        <tr>
+                            <td>Lettuce</td>
+                            <td>Market</td>
+                            <td>Produce</td>
+                            <td>2</td>
+                            <td>head</td>
+                            <td>$2.29</td>
+                            <td>$4.58</td>
+                        </tr>
+                        <tr>
+                            <td>Tomatoes</td>
+                            <td>Market</td>
+                            <td>Produce</td>
+                            <td>4</td>
+                            <td>lbs</td>
+                            <td>$3.49</td>
+                            <td>$13.96</td>
+                        </tr>
+                        <tr>
+                            <td>Squash</td>
+                            <td>Market</td>
+                            <td>Produce</td>
+                            <td>2</td>
+                            <td>each</td>
+                            <td>$1.50</td>
+                            <td>$3.00</td>
+                        </tr>
+                        <tr>
+                            <td>Celery</td>
+                            <td>Grocery</td>
+                            <td>Produce</td>
+                            <td>2</td>
+                            <td>bunch</td>
+                            <td>$1.99</td>
+                            <td>$3.98</td>
+                        </tr>
+                        <tr>
+                            <td>Cucumber</td>
+                            <td>Market</td>
+                            <td>Produce</td>
+                            <td>1</td>
+                            <td>lbs</td>
+                            <td>$2.29</td>
+                            <td>$2.29</td>
+                        </tr>
+                        <tr>
+                            <td>Mushrooms</td>
+                            <td>Grocery</td>
+                            <td>Produce</td>
+                            <td>0.5</td>
+                            <td>lbs</td>
+                            <td>$2.25</td>
+                            <td>$1.13</td>
+                        </tr>
+                        <tr>
+                            <td>Milk</td>
+                            <td>Home Delivery</td>
+                            <td>Dairy</td>
+                            <td>2</td>
+                            <td>gal</td>
+                            <td>$3.99</td>
+                            <td>$7.98</td>
+                        </tr>
+                        <tr>
+                            <td>Cheese</td>
+                            <td>Home Delivery</td>
+                            <td>Dairy</td>
+                            <td>1</td>
+                            <td>lbs</td>
+                            <td>$9.99</td>
+                            <td>$9.99</td>
+                        </tr>
+                        <tr>
+                            <td>Eggs</td>
+                            <td>Home Delivery</td>
+                            <td>Dairy</td>
+                            <td>2</td>
+                            <td>doz</td>
+                            <td>$3.50</td>
+                            <td>$7.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- #pricing_table -->
+
+            <section id="pricing_cards">
+                <h2>Carnival Internet Pricing</h2>
+
+                <div class="cards">
+                    <div class="card card-one">
+                        <h3 class="card_title">pronto</h3>
+
+                        <div class="card_info">
+                            <span class="card_speed">30</span>
+                            <div class="card_config">
+                                <span>Mbps</span>
+                                <span>unlimited</span>
+                                <span>traffic</span>
+                            </div>
+                        </div>
+
+                        <div class="card_description">
+                            <p>100mbps youtube</p>
+                            <p>100mbps facebook</p>
+                            <p>100mbps bdix</p>
+                        </div>
+
+                        <div class="card_pricing">
+                            <span class="price">1,599</span>
+                            <span>Tk/mo</span>
+                        </div>
+
+                        <div class="card_pricing_installment">
+                            <p>Installation Charge: 1,500 Tk</p>
+                        </div>
+
+                        <button class="button">get now</button>
+                    </div>
+                    <!-- .card -->
+
+                    <div class="card card-two">
+                        <h3 class="card_title">Presto</h3>
+
+                        <div class="card_info">
+                            <span class="card_speed">40</span>
+                            <div class="card_config">
+                                <span>Mbps</span>
+                                <span>unlimited</span>
+                                <span>traffic</span>
+                            </div>
+                        </div>
+
+                        <div class="card_description">
+                            <p>100mbps youtube</p>
+                            <p>100mbps facebook</p>
+                            <p>100mbps bdix</p>
+                        </div>
+
+                        <div class="card_pricing">
+                            <span class="price">1,599</span>
+                            <span>Tk/mo</span>
+                        </div>
+
+                        <div class="card_pricing_installment">
+                            <p>Installation Charge: 1,500 Tk</p>
+                        </div>
+                        <button class="button">get now</button>
+                    </div>
+                    <!-- .card -->
+
+                    <div class="card card-three">
+                        <h3 class="card_title">Primo</h3>
+
+                        <div class="card_info">
+                            <span class="card_speed">50</span>
+                            <div class="card_config">
+                                <span>Mbps</span>
+                                <span>unlimited</span>
+                                <span>traffic</span>
+                            </div>
+                        </div>
+
+                        <div class="card_description">
+                            <p>100mbps youtube</p>
+                            <p>100mbps facebook</p>
+                            <p>100mbps bdix</p>
+                        </div>
+
+                        <div class="card_pricing">
+                            <span class="price">1,599</span>
+                            <span>Tk/mo</span>
+                        </div>
+
+                        <div class="card_pricing_installment">
+                            <p>Installation Charge: 1,500 Tk</p>
+                        </div>
+
+                        <button class="button">get now</button>
+                    </div>
+                    <!-- .card -->
+                </div>
+            </section>
+
+            <section id="registration_form">
+                <h2>Registration Form</h2>
+                <form action="#">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <div>
+                            <label for="registration_form_first_name"> First Name </label>
+                            <input required autocomplete="none" id="registration_form_first_name" type="text" />
+                        </div>
+
+                        <div>
+                            <label for="registration_form_last_name"> Last Name </label>
+                            <input required autocomplete="none" id="registration_form_last_name" type="text" />
+                        </div>
+
+                        <div>
+                            <label for="registration_form_email"> Email </label>
+                            <input required autocomplete="none" id="registration_form_email" type="email" />
+                        </div>
+
+                        <div>
+                            <label for="registration_form_number">Phone Number</label>
+                            <input required autocomplete="none" id="registration_form_number" type="number" />
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>User Information</legend>
+
+                        <div>
+                            <label for="registration_form_username">Username</label>
+                            <input required autocomplete="none" id="registration_form_username" type="text" />
+                        </div>
+
+                        <div>
+                            <label for="registration_form_password">Password</label>
+                            <input required autocomplete="none" id="registration_form_password" type="password" />
+                        </div>
+
+                        <div>
+                            <label for="registration_form_confirm_password">Confirm Password</label>
+                            <input
+                                required
+                                autocomplete="none"
+                                id="registration_form_confirm_password"
+                                type="password"
+                            />
+                        </div>
+                    </fieldset>
+
+                    <input type="submit" value="Submit" />
+                </form>
+            </section>
+            <!-- #registration_form -->
+
+            <section id="scoreboard">
+                <h2>Scoreboard</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th><span class="iconify" data-icon="tabler:military-rank"></span>Rank</th>
+                            <th><span class="iconify" data-icon="wpf:name"></span>Name</th>
+                            <th><span class="iconify" data-icon="carbon:condition-point"></span>Points</th>
+                            <th><span class="iconify" data-icon="carbon:condition-point"></span>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Domenic</td>
+                            <td>88,110</td>
+                            <td>dcode</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sally</td>
+                            <td>72,400</td>
+                            <td>Students</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Nick</td>
+                            <td>52,300</td>
+                            <td>dcode</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- #scoreboard -->
+
+            <section id="gallery">
+                <h2>Gallery</h2>
+
+                <div class="showcase">
+                    <img src="./img/image_0.jpg" alt="Showcase Image" />
+                </div>
+                <div class="cards">
+                    <img src="./img/image_1.jpg" alt="Card Image" />
+                    <img src="./img/image_2.jpg" alt="Card Image" />
+                    <img src="./img/image_3.jpg" alt="Card Image" />
+                </div>
+            </section>
+            <!-- #gallery -->
+        </div>
+
+        <!-- ? ICONIFY ICONS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.1.1/iconify.min.js"
+            integrity="sha512-Xx3gEFb56pftXxdbHztvZftnO7ZIY4Rj2JxF3a1yEa5MWkRgemfMknhel27ecH3GNJM59mh5YnUDP1aztFWwcw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </body>
+</html>

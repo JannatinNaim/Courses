@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>HTML</title>
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <ul>
+            <li><a href="./Tasks/blog.html">Blog Page</a></li>
+        </ul>
+
+        <!--
+            * HTML TABLES
+
+            1. Start with table tag.
+            2. Add thead and tbody.
+            3. th tags in thead for headings.
+            4. tr for new rows.
+            5. td for data.
+        -->
+
+        <table border="1" style="border-collapse: collapse; width: 500px">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Graduated</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>38</td>
+                    <td>Dhaka</td>
+                    <td rowspan="3" style="text-align: center">Yes</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>28</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Sakib</td>
+                    <td>32</td>
+                    <td>Dhaka</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: center">Year: 2022</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--
+            * FORM
+        -->
+
+        <h1>Sign Up</h1>
+        <form action="#">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" />
+
+            <br />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" />
+
+            <br />
+
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" />
+
+            <br />
+
+            <label for="date-of-birth">Date Of Birth</label>
+            <input id="date-of-birth" type="date" name="date" />
+
+            <br />
+
+            <label for="eye-color">Eye Color</label>
+            <input id="eye-color" type="color" name="color" />
+
+            <br />
+
+            <input id="cricket" type="checkbox" name="cricket" />
+            <label for="cricket">Cricket</label>
+            <input id="football" type="checkbox" name="football" />
+            <label for="football">Football</label>
+
+            <br />
+
+            <input id="html" type="radio" name="language" />
+            <label for="html">HTML</label>
+            <input id="css" type="radio" name="language" />
+            <label for="css">CSS</label>
+            <input id="js" type="radio" name="language" />
+            <label for="js">JavaScript</label>
+
+            <br />
+
+            <p>Your Location</p>
+            <select name="location" id="location">
+                <option value="default" disabled selected>Choose One</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="manikganj">Manikgan</option>
+                <option value="khulna" disabled>Khulna</option>
+            </select>
+
+            <br />
+
+            <p>Choose Profile Picture</p>
+            <input id="file" type="file" name="file" />
+
+            <br />
+
+            <input type="button" value="Register" />
+        </form>
+
+        <!--
+            TODO
+
+            1. Grouping
+            2. Semantic Elements
+            3. Embed
+            4. Audio Video
+        -->
+
+        <!--
+            ! TASK
+
+            * PERSONAL BLOG
+                1. Should have one table.
+                2. Should have one OL or UL.
+                3. Should have one long form (8 elements).
+                4. Should have images.
+        -->
+    </body>
+</html>

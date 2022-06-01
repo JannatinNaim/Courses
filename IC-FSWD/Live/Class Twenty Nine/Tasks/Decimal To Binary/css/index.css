@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.inputs .decimal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputs .decimal label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.inputs .decimal input {
+  width: 450px;
+}
+.inputs .binary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inputs .binary .title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */

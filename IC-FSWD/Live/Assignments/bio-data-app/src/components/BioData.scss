@@ -1,0 +1,19 @@
+.bio-data {
+  padding: 2rem;
+  border-radius: 0.6rem;
+  background: #b2b2b2;
+
+  &__name {
+    text-align: center;
+  }
+
+  .personal-information,
+  .hobbies,
+  .interests {
+    margin: 1rem 0;
+
+    &__name {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

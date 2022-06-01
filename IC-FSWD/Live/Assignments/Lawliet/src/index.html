@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ? PAGE SETUP -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- ? BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- ? FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- ? GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- ? STYLESHEETS -->
+        <link rel="stylesheet" href="./style.css" />
+
+        <!-- ? PAGE TITLE -->
+        <title>Lawliet</title>
+    </head>
+    <body>
+        <!-- ? MAIN HEADER | START -->
+        <header class="main_header container-lg">
+            <nav class="main_header__navigation navbar navbar-expand-md navbar-light">
+                <a class="main_header__navigation__branding navbar-brand d-flex align-items-center gap-4" href="#">
+                    <img
+                        class="main_header__navigation__branding__logo"
+                        src="./images/main_header__navigation__branding__logo.png"
+                        alt="Brand Logo"
+                    />
+
+                    <span class="main_header__navigation__branding__name">Lawliet</span>
+                </a>
+                <!-- .main_header__navigation__branding -->
+
+                <button
+                    class="main_header__navigation__toggle navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#main_header__navigation__links"
+                >
+                    <span class="main_header__navigation__toggle__icon navbar-toggler-icon"></span>
+                </button>
+                <!-- .main_header__navigation__toggle -->
+
+                <div
+                    id="main_header__navigation__links"
+                    class="main_header__navigation__links collapse navbar-collapse d-md-flex justify-content-md-end"
+                >
+                    <ul class="main_header__navigation__links__list navbar-nav">
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">CONTACT</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">
+                                TESTIMONIALS
+                            </a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">ABOUT</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+
+                        <li class="main_header__navigation__links__list__item nav-item">
+                            <a class="main_header__navigation__links__list__item__link nav-link" href="#">TERMS</a>
+                        </li>
+                        <!-- .main_header__navigation__links__list__item -->
+                    </ul>
+
+                    <a href="#" class="main_header__navigation__search">
+                        <i class="main_header__navigation__search__icon fas fa-search"></i>
+                    </a>
+                    <!-- .main_header__navigation__search -->
+                </div>
+                <!-- .main_header__navigation__links -->
+            </nav>
+            <!-- .main_header__navigation -->
+        </header>
+        <!-- ? MAIN HEADER | END -->
+
+        <!-- ? HERO SECTION | START -->
+        <div class="hero__container container-fluid">
+            <section class="hero container-lg">
+                <h1 class="hero__name">Your Solution Legal Consultancy</h1>
+                <p class="hero__info">
+                    We are here to help you take care of your legality with the best services especially for you.
+                </p>
+
+                <a href="#" class="hero__call_to_action">GET STARTED</a>
+
+                <div class="hero__sponsors">
+                    <span class="hero__sponsors__name">Trusted by 10+ companies in Indonesia</span>
+
+                    <div class="hero__sponsors__gallery row g-4">
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_a.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_b.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_c.png"
+                            alt="Sponsor Image"
+                        />
+                        <img
+                            class="col-sm-6 align-self-center"
+                            src="./images/hero__sponsors__gallery__image_d.png"
+                            alt="Sponsor Image"
+                        />
+                    </div>
+                    <!-- .hero__sponsors__gallery -->
+                </div>
+                <!-- .hero__sponsors -->
+            </section>
+        </div>
+        <!-- ? HERO SECTION | END -->
+
+        <!-- ? FEATURES SECTION | START -->
+        <div class="features__container container-fluid">
+            <section class="features container-lg">
+                <div class="row d-flex justify-content-between">
+                    <div class="features__content col-xl-5 col-lg-12">
+                        <h2 class="features__content__name">Why do we help with legalization?</h2>
+
+                        <p class="features__content__info">
+                            We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes
+                            complicated.
+                        </p>
+                    </div>
+                    <!-- .features__content -->
+
+                    <div class="features__cards col-xl-6 col-lg-12">
+                        <div class="row d-flex justify-content-center">
+                            <div class="features__cards__item col-md-5 col-sm-12">
+                                <img
+                                    class="features__cards__item__icon"
+                                    src="./images/features__cards__item__icon_a.png"
+                                    alt="Feature Icon"
+                                />
+
+                                <span class="features__cards__item__name">Environmental Law</span>
+
+                                <p class="features__cards__item__info">
+                                    Environmental legal issues might occur since the planned business activities are
+                                    designed
+                                </p>
+                            </div>
+                            <!-- .features__cards__item -->
+
+                            <div class="features__cards__item col-md-5 col-sm-12">
+                                <img
+                                    class="features__cards__item__icon"
+                                    src="./images/features__cards__item__icon_b.png"
+                                    alt="Feature Icon"
+                                />
+
+                                <span class="features__cards__item__name">Corporate and Commercial</span>
+
+                                <p class="features__cards__item__info">
+                                    We provide a complete range of services for the continuity of your business
+                                    activities.
+                                </p>
+                            </div>
+                            <!-- .features__cards__item -->
+
+                            <div class="features__cards__item col-md-5 col-sm-12">
+                                <img
+                                    class="features__cards__item__icon"
+                                    src="./images/features__cards__item__icon_c.png"
+                                    alt="Feature Icon"
+                                />
+
+                                <span class="features__cards__item__name">Information and Technology</span>
+
+                                <p class="features__cards__item__info">
+                                    IT not followed by the existing regulation which might cause legal uncertainty and
+                                    business uncertainty.
+                                </p>
+                            </div>
+                            <!-- .features__cards__item -->
+
+                            <div class="features__cards__item col-md-5 col-sm-12">
+                                <img
+                                    class="features__cards__item__icon"
+                                    src="./images/features__cards__item__icon_d.png"
+                                    alt="Feature Icon"
+                                />
+
+                                <span class="features__cards__item__name">Other Services</span>
+
+                                <p class="features__cards__item__info">
+                                    In dealing with disruptive economic and legal challenge, our firm also provide
+                                    various legal services.
+                                </p>
+                            </div>
+                            <!-- .features__cards__item -->
+                        </div>
+                        <!-- .features__cards row -->
+                    </div>
+                    <!-- .features__cards -->
+                </div>
+            </section>
+        </div>
+        <!-- ? FEATURES SECTION | END -->
+
+        <!-- ? STATS SECTION | START -->
+        <div class="stats__container container-fluid">
+            <section class="stats container">
+                <h2 class="stats__name">Some count that matters</h2>
+                <p class="stats__info">Our achievement in our journey depicted in numbers</p>
+
+                <div class="stats__showcase">
+                    <div class="stats__showcase__item">
+                        <span class="stats__showcase__item__name">30</span>
+                        <span class="stats__showcase__item__info">Clients</span>
+                    </div>
+                    <!-- .stats__showcase__item -->
+
+                    <div class="stats__showcase__item">
+                        <span class="stats__showcase__item__name">300+</span>
+                        <span class="stats__showcase__item__info">Taken business legalities</span>
+                    </div>
+                    <!-- .stats__showcase__item -->
+
+                    <div class="stats__showcase__item">
+                        <span class="stats__showcase__item__name">8</span>
+                        <span class="stats__showcase__item__info">Clients</span>
+                    </div>
+                    <!-- .stats__showcase__item -->
+                </div>
+                <!-- .stats__showcase -->
+            </section>
+        </div>
+        <!-- ? STATS SECTION | END -->
+
+        <!-- ? TESTIMONIALS SECTION | START -->
+        <div class="testimonials__container container-fluid">
+            <section class="testimonials container-lg">
+                <h2 class="testimonials__name">Client Testimonials</h2>
+
+                <div class="testimonials__showcase">
+                    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonials__showcase__item">
+                                    <div class="testimonials__showcase__item__content">
+                                        <h3 class="testimonials__showcase__item__content__name">
+                                            Incredible Experience
+                                        </h3>
+
+                                        <p class="testimonials__showcase__item__content__info">
+                                            We had an incredible experience working with Landify and were impressed they
+                                            made such a big difference in only three weeks. Our team is so grateful for
+                                            the wonderful improvements they made and their ability to get familiar with
+                                            the concept so quickly.
+                                        </p>
+                                    </div>
+                                    <!-- .testimonials__showcase__item__content -->
+
+                                    <div class="testimonials__showcase__item__author">
+                                        <div class="testimonials__showcase__item__author__banner">
+                                            <img
+                                                class="testimonials__showcase__item__author__banner__image"
+                                                src="./images/testimonials__showcase__item__author__banner__image_a.png"
+                                                alt="Testimonial Author"
+                                            />
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__banner -->
+
+                                        <div class="testimonials__showcase__item__author__content">
+                                            <span class="testimonials__showcase__item__author__content__name"
+                                                >Anya Tailor Joy</span
+                                            >
+                                            <span class="testimonials__showcase__item__author__content__info">
+                                                CEO, SF Industries
+                                            </span>
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__content -->
+                                    </div>
+                                    <!-- .testimonials__showcase__item__author -->
+                                </div>
+                                <!-- .testimonials__showcase__item -->
+                            </div>
+                            <!-- .carousel-item -->
+
+                            <div class="carousel-item">
+                                <div class="testimonials__showcase__item">
+                                    <div class="testimonials__showcase__item__content">
+                                        <h3 class="testimonials__showcase__item__content__name">
+                                            Incredible Experience
+                                        </h3>
+
+                                        <p class="testimonials__showcase__item__content__info">
+                                            We had an incredible experience working with Landify and were impressed they
+                                            made such a big difference in only three weeks. Our team is so grateful for
+                                            the wonderful improvements they made and their ability to get familiar with
+                                            the concept so quickly.
+                                        </p>
+                                    </div>
+                                    <!-- .testimonials__showcase__item__content -->
+
+                                    <div class="testimonials__showcase__item__author">
+                                        <div class="testimonials__showcase__item__author__banner">
+                                            <img
+                                                class="testimonials__showcase__item__author__banner__image"
+                                                src="./images/testimonials__showcase__item__author__banner__image_a.png"
+                                                alt="Testimonial Author"
+                                            />
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__banner -->
+
+                                        <div class="testimonials__showcase__item__author__content">
+                                            <span class="testimonials__showcase__item__author__content__name"
+                                                >Anya Tailor Joy</span
+                                            >
+                                            <span class="testimonials__showcase__item__author__content__info">
+                                                CEO, SF Industries
+                                            </span>
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__content -->
+                                    </div>
+                                    <!-- .testimonials__showcase__item__author -->
+                                </div>
+                                <!-- .testimonials__showcase__item -->
+                            </div>
+                            <!-- .carousel-item -->
+
+                            <div class="carousel-item">
+                                <div class="testimonials__showcase__item">
+                                    <div class="testimonials__showcase__item__content">
+                                        <h3 class="testimonials__showcase__item__content__name">
+                                            Incredible Experience
+                                        </h3>
+
+                                        <p class="testimonials__showcase__item__content__info">
+                                            We had an incredible experience working with Landify and were impressed they
+                                            made such a big difference in only three weeks. Our team is so grateful for
+                                            the wonderful improvements they made and their ability to get familiar with
+                                            the concept so quickly.
+                                        </p>
+                                    </div>
+                                    <!-- .testimonials__showcase__item__content -->
+
+                                    <div class="testimonials__showcase__item__author">
+                                        <div class="testimonials__showcase__item__author__banner">
+                                            <img
+                                                class="testimonials__showcase__item__author__banner__image"
+                                                src="./images/testimonials__showcase__item__author__banner__image_a.png"
+                                                alt="Testimonial Author"
+                                            />
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__banner -->
+
+                                        <div class="testimonials__showcase__item__author__content">
+                                            <span class="testimonials__showcase__item__author__content__name"
+                                                >Anya Tailor Joy</span
+                                            >
+                                            <span class="testimonials__showcase__item__author__content__info">
+                                                CEO, SF Industries
+                                            </span>
+                                        </div>
+                                        <!-- .testimonials__showcase__item__author__content -->
+                                    </div>
+                                    <!-- .testimonials__showcase__item__author -->
+                                </div>
+                                <!-- .testimonials__showcase__item -->
+                            </div>
+                            <!-- .carousel-item -->
+                        </div>
+                        <!-- .carousel-inner -->
+
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <!-- .carousel-control-prev -->
+
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <!-- .carousel-control-next -->
+                    </div>
+                    <!-- .carousel -->
+                </div>
+                <!-- .testimonials__showcase -->
+            </section>
+        </div>
+        <!-- ? TESTIMONIALS SECTION | END -->
+
+        <!-- ? SUPPORT SECTION | START -->
+        <div class="support__container">
+            <section class="support container-lg">
+                <h2 class="support__name">Complex Questions?</h2>
+
+                <p class="support__info">
+                    Request for a personalized budget for your legal problem. We will send you a coupe options in 24
+                    hours. You can have free consult , if a our first customer
+                </p>
+
+                <a class="support__call_to_action" href="#">
+                    <img
+                        class="support__call_to_action__icon"
+                        src="./images/support__call_to_action__icon.png"
+                        alt="Support Icon"
+                    />
+
+                    <span class="support__call_to_action__name">Call Now</span>
+                </a>
+                <!-- .support__call_to_action -->
+            </section>
+        </div>
+        <!-- ? SUPPORT SECTION | END -->
+
+        <!-- ? MAIN FOOTER | START -->
+        <div class="main_footer__container container-fluid">
+            <footer class="main_footer container">
+                <div class="row">
+                    <div class="main_footer__col_a col-lg-6 col-12">
+                        <div class="main_footer__col_a__branding">
+                            <img
+                                class="main_footer__col_a__branding__logo"
+                                src="./images/main_footer__col_a__branding__logo.png"
+                                alt="Main Footer Logo"
+                            />
+
+                            <span class="main_footer__col_a__branding__name">Lawliet</span>
+                        </div>
+                    </div>
+                    <!-- .main_footer__col_a -->
+
+                    <div class="main_footer__col_b col-lg-2 col-12">
+                        <span class="main_footer__col_b__name">Product</span>
+
+                        <ul class="main_footer__col_b__links">
+                            <li class="main_footer__col_b__links__item">
+                                <a href="#" class="main_footer__col_b__links__item__link">Overview</a>
+                            </li>
+                            <!-- .main_footer__col_b__links__item -->
+
+                            <li class="main_footer__col_b__links__item">
+                                <a href="#" class="main_footer__col_b__links__item__link">Features</a>
+                            </li>
+                            <!-- .main_footer__col_b__links__item -->
+
+                            <li class="main_footer__col_b__links__item">
+                                <a href="#" class="main_footer__col_b__links__item__link">Tutorials</a>
+                            </li>
+                            <!-- .main_footer__col_b__links__item -->
+
+                            <li class="main_footer__col_b__links__item">
+                                <a href="#" class="main_footer__col_b__links__item__link">Pricing</a>
+                            </li>
+                            <!-- .main_footer__col_b__links__item -->
+
+                            <li class="main_footer__col_b__links__item">
+                                <a href="#" class="main_footer__col_b__links__item__link">Releases</a>
+                            </li>
+                            <!-- .main_footer__col_b__links__item -->
+                        </ul>
+                        <!-- .main_footer__col_b__links -->
+                    </div>
+                    <!-- .main_footer__col_b -->
+
+                    <div class="main_footer__col_c col-lg-2 col-12">
+                        <span class="main_footer__col_c__name">Company</span>
+
+                        <ul class="main_footer__col_c__links">
+                            <li class="main_footer__col_c__links__item">
+                                <a href="#" class="main_footer__col_c__links__item__link">About</a>
+                            </li>
+                            <!-- .main_footer__col_c__links__item -->
+
+                            <li class="main_footer__col_c__links__item">
+                                <a href="#" class="main_footer__col_c__links__item__link">Press</a>
+                            </li>
+                            <!-- .main_footer__col_c__links__item -->
+
+                            <li class="main_footer__col_c__links__item">
+                                <a href="#" class="main_footer__col_c__links__item__link">Careers</a>
+                            </li>
+                            <!-- .main_footer__col_c__links__item -->
+
+                            <li class="main_footer__col_c__links__item">
+                                <a href="#" class="main_footer__col_c__links__item__link">Contact</a>
+                            </li>
+                            <!-- .main_footer__col_c__links__item -->
+
+                            <li class="main_footer__col_c__links__item">
+                                <a href="#" class="main_footer__col_c__links__item__link">Partners</a>
+                            </li>
+                            <!-- .main_footer__col_c__links__item -->
+                        </ul>
+                        <!-- .main_footer__col_c__links -->
+                    </div>
+                    <!-- .main_footer__col_c -->
+
+                    <div class="main_footer__col_d col-lg-2 col-12">
+                        <span class="main_footer__col_d__name">Support</span>
+
+                        <ul class="main_footer__col_d__links">
+                            <li class="main_footer__col_d__links__item">
+                                <a href="#" class="main_footer__col_d__links__item__link">Help Center</a>
+                            </li>
+                            <!-- .main_footer__col_d__links__item -->
+
+                            <li class="main_footer__col_d__links__item">
+                                <a href="#" class="main_footer__col_d__links__item__link">Terms of Service</a>
+                            </li>
+                            <!-- .main_footer__col_d__links__item -->
+
+                            <li class="main_footer__col_d__links__item">
+                                <a href="#" class="main_footer__col_d__links__item__link">Legal</a>
+                            </li>
+                            <!-- .main_footer__col_d__links__item -->
+
+                            <li class="main_footer__col_d__links__item">
+                                <a href="#" class="main_footer__col_d__links__item__link">Privacy Policy</a>
+                            </li>
+                            <!-- .main_footer__col_d__links__item -->
+
+                            <li class="main_footer__col_d__links__item">
+                                <a href="#" class="main_footer__col_d__links__item__link">Status</a>
+                            </li>
+                            <!-- .main_footer__col_d__links__item -->
+                        </ul>
+                        <!-- .main_footer__col_d__links -->
+                    </div>
+                    <!-- .main_footer__col_d -->
+                </div>
+                <!-- .main_footer row -->
+            </footer>
+        </div>
+        <!-- ? MAIN FOOTER | END -->
+
+        <!-- ? COPYRIGHT SECTION | START -->
+        <div class="copyright__container container-fluid">
+            <section class="copyright container">
+                <p class="copyright__name">&copy; 2021 Lawliet. All rights reserved.</p>
+
+                <div class="copyright__links">
+                    <img class="copyright__links_a" src="./images/copyright__link_a.png" alt="Copyright Link Icon" />
+                    <img class="copyright__links_b" src="./images/copyright__link_b.png" alt="Copyright Link Icon" />
+                    <img class="copyright__links_c" src="./images/copyright__link_c.png" alt="Copyright Link Icon" />
+                    <img class="copyright__links_d" src="./images/copyright__link_d.png" alt="Copyright Link Icon" />
+                </div>
+            </section>
+        </div>
+        <!-- ? COPYRIGHT SECTION | END -->
+
+        <script src="./script.js"></script>
+    </body>
+</html>

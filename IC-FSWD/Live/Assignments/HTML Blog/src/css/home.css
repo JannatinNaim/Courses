@@ -1,0 +1,81 @@
+/* ? ABOUT SECTION */
+#about_section {
+    /* Set top and bottom margins. */
+    margin: 2rem 0;
+}
+
+#about_section h1,
+#about_section p {
+    /* Set bottom margin. */
+    margin-bottom: 1rem;
+}
+
+/* ? SERVICES SECTION */
+.services_title {
+    /* Center title text. */
+    text-align: center;
+}
+
+#services_section {
+    /* Center service items. */
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+#services_section .service {
+    /* Space out service items. */
+    padding: 1rem;
+}
+
+#services_section .service h3 {
+    /* Center and space out service titles. */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#services_section .service p {
+    /* Center service descriptions. */
+    text-align: center;
+}
+
+#services_section .service img {
+    /* Center service image and add bottom margin. */
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* ? BLOG SECTION */
+#blog_section .article {
+    /* Set bottom margin. */
+    margin-bottom: 2rem;
+}
+
+#blog_section .article h3,
+#blog_section .article p,
+#blog_section .article a {
+    /* Set bottom margin. */
+    margin-bottom: 1rem;
+    display: block;
+}
+
+#blog_section .article img {
+    /* Have images take full width. */
+    width: 100%;
+}
+
+/* ? CONTACT SECTION */
+#contact_section label {
+    /* Set labels to block and bold. */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+#contact_section input,
+#contact_section textarea {
+    /* Make input fields full width. */
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+}

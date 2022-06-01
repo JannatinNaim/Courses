@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page_title {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.timer__count, .timer__break {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.timer__count__name, .timer__break__name {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.timer__count__timer, .timer__break__timer {
+  display: flex;
+  gap: 2rem;
+  font-size: 4rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dev {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

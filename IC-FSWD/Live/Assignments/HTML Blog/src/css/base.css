@@ -1,0 +1,78 @@
+/* ? GLOBAL CHANGES */
+* {
+    /* Reset margin and padding. */
+    margin: 0;
+    padding: 0;
+    /* Set box sizing to border box. */
+    box-sizing: border-box;
+}
+
+/* ? GENERAL CHANGES */
+body {
+    /* Set default font family of Roboto with fallback to sans-serif. */
+    font-family: 'Roboto', sans-serif;
+    /* Set default font color. */
+    color: #333;
+}
+
+/* ? GLOBAL CONTAINER */
+#global_container {
+    /* Center all items with definite max width. */
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ? MAIN HEADER */
+#main_header {
+    /* Flex header items and center them. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add padding to top and bottom. */
+    padding: 2rem 0;
+}
+
+/* * PAGE BRANDING */
+.page_branding {
+    /* Flex header items and center them. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page_branding img {
+    /* Set definite width for profile picture. */
+    width: 75px;
+}
+
+.page_branding a {
+    /* Style logo link. */
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* * MAIN NAVIGATION */
+.main_navigation ul {
+    /* Flex navigation links. */
+    display: flex;
+    list-style: none;
+}
+
+.main_navigation li a {
+    /* Style navigation links. */
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* ? MAIN FOOTER */
+#main_footer p {
+    /* Center footer with padding. */
+    padding: 1rem 0;
+    text-align: center;
+}

@@ -1,0 +1,367 @@
+/* ? GLOBAL RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ? GLOBAL CONTAINER */
+.container {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+/* ? GENERAL SETTINGS */
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+.container > h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* ? PRICING TABLE */
+
+#pricing_table table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+#pricing_table caption {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#pricing_table thead {
+    background: rgb(177, 23, 23);
+}
+
+#pricing_table thead th {
+    color: white;
+    padding: 1rem;
+}
+
+#pricing_table thead th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+#pricing_table thead th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+#pricing_table tbody td {
+    padding: 0.5rem;
+}
+
+#pricing_table tbody tr {
+    border-bottom: 1px solid red;
+}
+
+/* ? PRICING CARDS */
+
+#pricing_cards {
+    margin: 4rem 0;
+}
+
+#pricing_cards h2 {
+    text-align: center;
+}
+
+#pricing_cards .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing_cards > h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#pricing_cards .card {
+    padding: 1rem;
+}
+
+#pricing_cards .card_title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid red;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+#pricing_cards .card-one .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #25a8df;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card-two .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #652d8e;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card-three .card_title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #ee5927;
+    border-bottom: 2px solid gray;
+}
+
+#pricing_cards .card_config {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-one > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-two > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(1) {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(2),
+#pricing_cards > div > div.card.card-three > div.card_info > div > span:nth-child(3) {
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+#pricing_cards .card-one .card_speed {
+    font-weight: bolder;
+    color: #25a8df;
+}
+
+#pricing_cards .card-two .card_speed {
+    font-weight: bolder;
+    color: #652d8e;
+}
+
+#pricing_cards .card-three .card_speed {
+    font-weight: bolder;
+    color: #ee5927;
+}
+
+#pricing_cards .card_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing_cards .card_speed {
+    font-size: 8rem;
+}
+
+#pricing_cards .card_config {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#pricing_cards .card_description {
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+    color: #da6ea9;
+    margin-bottom: 4rem;
+}
+
+#pricing_cards .card_pricing {
+    text-align: center;
+    margin: 1rem;
+}
+
+#pricing_cards .card_pricing .price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#pricing_cards .card_pricing_installment {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#pricing_cards .button {
+    border: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #de2d3c;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#pricing_cards .button:hover {
+    background-color: #c4e46c;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#pricing_cards .card-two {
+    border-right: 1px solid #b9bbbd;
+    border-left: 1px solid #b9bbbd;
+    padding: 0 1.5rem;
+}
+
+/* ? REGISTRATION FORM */
+
+#registration_form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+#registration_form h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#registration_form fieldset {
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+#registration_form legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+#registration_form form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+#registration_form form div label {
+    font-weight: bold;
+}
+
+#registration_form form div input {
+    width: 70%;
+}
+
+#registration_form form input[type='submit'] {
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    width: 200px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+
+#scoreboard {
+    margin-bottom: 4rem;
+}
+
+#scoreboard h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+#scoreboard table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 500px;
+    font-family: sans-serif;
+    border-bottom: 3px solid #58b3af;
+    font-weight: thin;
+}
+
+#scoreboard th {
+    background: #58b3af;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#scoreboard td {
+    padding: 20px;
+    background: rgb(241, 241, 241);
+}
+
+#scoreboard tbody tr:nth-child(2) td {
+    background: rgb(255, 255, 255);
+    color: #58b3af;
+}
+
+#scoreboard th:nth-child(1) {
+    border-top-left-radius: 5px;
+}
+
+#scoreboard th:nth-child(4) {
+    border-top-right-radius: 5px;
+}
+
+#gallery {
+    margin-bottom: 4rem;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#gallery .showcase {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#gallery .showcase img {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+    border-bottom: 3px solid red;
+}
+
+#gallery .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#gallery .cards img {
+    width: 30%;
+    display: block;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid green;
+}

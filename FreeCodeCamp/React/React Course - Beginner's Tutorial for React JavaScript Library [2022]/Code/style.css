@@ -1,3 +1,47 @@
 * {
   font-family: sans-serif;
 }
+
+.header {
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 6rem;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  padding: 1rem;
+}
+
+.main {
+}
+
+.title {
+  text-align: center;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.content-item {
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+}

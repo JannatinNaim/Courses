@@ -1,0 +1,5 @@
+{
+  'Bangladesh': 'Dhaka',
+  'Nepal': 'Kathmandu',
+  'Bhutan': 'Thimphu',
+}

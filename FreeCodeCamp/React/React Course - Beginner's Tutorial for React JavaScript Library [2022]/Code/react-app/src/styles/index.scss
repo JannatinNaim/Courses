@@ -62,7 +62,8 @@ body {
 }
 
 .card {
-  min-width: 230px;
+  max-width: 230px;
+  width: 230px;
   margin-bottom: 0.8rem;
 
   &-banner {

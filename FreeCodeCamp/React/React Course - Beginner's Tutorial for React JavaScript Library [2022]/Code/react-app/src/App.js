@@ -1,16 +1,13 @@
 import "./App.css";
 
-import Joke from "./components/Joke";
-import jokes from "./data/jokes";
+import Header from "./components/Header";
+import VisitedPlaces from "./components/VisitedPlaces";
 
 function App() {
   return (
     <div className="app">
-      {jokes.map((joke) => {
-        const { setup, punchline } = joke;
-
-        return <Joke setup={setup} punchline={punchline} />;
-      })}
+      <Header />
+      <VisitedPlaces />
     </div>
   );
 }

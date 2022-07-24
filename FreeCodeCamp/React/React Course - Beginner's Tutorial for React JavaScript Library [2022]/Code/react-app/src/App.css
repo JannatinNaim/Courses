@@ -1,0 +1,57 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  background: tomato;
+}
+
+.branding {
+  width: 34px;
+}
+
+.page-title {
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.card {
+  max-width: 700px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.banner-image {
+  display: block;
+  width: 200px;
+}
+
+.location {
+  display: flex;
+  gap: 2rem;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.country-icon {
+  width: 12px;
+}
+
+.maps-link {
+  color: #aaa;
+}
+
+.place {
+  font-size: 2rem;
+}
+
+.course {
+  font-weight: bold;
+}

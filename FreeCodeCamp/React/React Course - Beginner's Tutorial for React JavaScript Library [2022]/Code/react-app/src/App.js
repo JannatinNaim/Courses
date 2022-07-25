@@ -1,13 +1,13 @@
 import "./App.css";
 
 import Header from "./components/Header";
-import VisitedPlaces from "./components/VisitedPlaces";
+import MemeInput from "./components/MemeInput";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <VisitedPlaces />
+      <MemeInput />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 """Fibonacci Sum Up To N"""
-n = 5
+n = 1000
 
 numbers = [0, 1]
 
